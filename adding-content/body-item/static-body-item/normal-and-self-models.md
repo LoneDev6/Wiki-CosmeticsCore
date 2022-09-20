@@ -81,8 +81,8 @@ This requires you to check ingame a few times until the model is correctly posit
 
 ### Normal model
 
-![](<../../../.gitbook/assets/image (1).png>)
+![](<../../../.gitbook/assets/image (3).png>)
 
 ### Self model
 
-![](<../../../.gitbook/assets/image (3).png>)
+![](<../../../.gitbook/assets/image (9).png>)
