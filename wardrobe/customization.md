@@ -63,7 +63,7 @@ To get these values just use `/coords` command of **Essentials** or use `F3`.
 
 Command: `/cosmeticsconfig config set camera-location`
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 ### Mannequin location
 
