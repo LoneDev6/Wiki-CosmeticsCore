@@ -9,7 +9,7 @@ It also offers a set of example cosmetics which you can install if you want them
 
 Open the zip file which can be found here: `plugins/CosmeticsCore/default_assets.zip`
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 Folders:
 

@@ -86,3 +86,53 @@ This requires you to check ingame a few times until the model is correctly posit
 ### Self model
 
 ![](<../../../.gitbook/assets/image (9).png>)
+
+## Issues with big models
+
+If you cannot move the model down because your model is too big read here.
+
+<figure><img src="../../../.gitbook/assets/move_down_problem.gif" alt=""><figcaption></figcaption></figure>
+
+### Video version
+
+{% embed url="https://youtu.be/OZ-2gnTKXEw" %}
+
+### Text Version
+
+### Step 1
+
+Select all the cubes in your model (click on any cube in the list and press CTRL+A).
+
+### Step 2
+
+Press on **Transform** (at the top) -> **Scale**.
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+### Step 3
+
+Set the scale to `0.5` or any low value (based on your model, you need to do some tests).
+
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
+### Step 4
+
+Move the item down
+
+### Step 5
+
+Now open the Display tab, press on the ArmorStand and HEAD icons and then move it down.
+
+Now you can also adjust the scale in this view in order to make it to the original size.
+
+### Result
+
+<div>
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+</div>

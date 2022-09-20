@@ -128,7 +128,7 @@ HEX and integer colors are not supported for now.
 
 These properties are used to set colors of the slots in the wardrobe GUI.
 
-![](<../.gitbook/assets/image (18).png>)
+![](<../.gitbook/assets/image (18) (1).png>)
 
 * **Not owned**: color of the cosmetics not owned (no permission)
 * **Owned**: color of the cosmetics owned (with permission)

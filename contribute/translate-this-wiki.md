@@ -27,7 +27,7 @@ Select a file you want to edit and press the **pen** button
 
 Edit the file and then press <mark style="color:green;">**Commit changes**</mark>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 ## Important notes
