@@ -23,3 +23,11 @@ Imagine a player which can't know if they still have their totem in offhand.
 
 You may think: "you just need to open inventory and check".\
 Imagine how annoying would be to have to open the inventory each 5 seconds in order to check durability of the shield in offhand.
+
+## Multiple hats cosmetics
+
+You cannot have more than 1 hat cosmetics equipped at the same time.
+
+The hat cosmetic uses the helmet slot of your player, you cannot have more than 1 item at the same time in this slot, it's a limitation of the game.
+
+There is no way to bypass this limitation.
