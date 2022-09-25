@@ -1,11 +1,11 @@
-# ❓ Frequently asked questions
+# ❓ Sıkça sorulan sorular
 
-## Successfully introduce cosmetics in your server
+## Kozmetikleri sunucunuza doğru şekilde tanıtın
 
 {% hint style="info" %}
-1. You must not make them easy to obtain. Make them a rare perk for donors or special events prizes (example: seasonal quests, boss battle prizes, staff members exclusive, donors exclusive)
-2. Always make sure to publish a new cosmetic when you are 100% sure you want to keep it forever in your server. People don't like to buy cosmetics and see them removed after some time.
-3. Make unique cosmetics, don't make useless variations of the same cosmetic design.
+1. Onları kolay elde edilebilir yapmamalısınız. Onları bağışçılar için nadir bir ayrıcalık olarak veya özel eventlerde ödül olarak (örnek olarak: sezonsal görevler, boss savaşı ödülleri, yetkili ekibine özel, bağışçılara özel) yapabilirsiniz.
+2. Sunucunuza her yeni bir kozmetik eklediğinizde onu sunucunuzda 100% tutmak istediğinizden emin olun. İnsanlar bir kozmetiği satın alıp onların bir süre sonra kaldırıldığını görmeyi sevmez.
+3. Kimselerin düşünmediği kozmetikler yapın, tek bir tasarım üzerinden kullanışsız ve saçma bir sürü varyant oluşturmayın.
 {% endhint %}
 
 ## Offhand cosmetics (left hand)
@@ -24,10 +24,10 @@ Imagine a player which can't know if they still have their totem in offhand.
 You may think: "you just need to open inventory and check".\
 Imagine how annoying would be to have to open the inventory each 5 seconds in order to check durability of the shield in offhand.
 
-## Multiple hats cosmetics
+## Birden fazla şapka kozmetiği
 
-You cannot have more than 1 hat cosmetics equipped at the same time.
+Aynı zaman içerisinde 1 şapka kozmetiğinden fazla şapka kozmetiği giyemezsiniz.
 
-The hat cosmetic uses the helmet slot of your player, you cannot have more than 1 item at the same time in this slot, it's a limitation of the game.
+Şapka kozmetiği oyuncunun kask slotunu kullanır, bu slota birden fazla item koyamazsınız, bu oyunun bir sınırlandırmasıdır
 
-There is no way to bypass this limitation.
+Bu sınırlandırmayı aşmak için hiç bir şey yapamazsınız.
