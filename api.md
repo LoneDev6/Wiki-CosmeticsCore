@@ -1,10 +1,10 @@
 # API
 
 {% hint style="warning" %}
-This API is currently under development and can change during time
+API şu anda geliştirme altındadır ve zamanla değişebilir.
 {% endhint %}
 
-The API is under this package:&#x20;
+API burada:&#x20;
 
 ```
 dev.lone.cosmeticscore.api.temporary
