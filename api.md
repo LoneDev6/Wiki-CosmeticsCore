@@ -4,7 +4,7 @@
 API şu anda geliştirme altındadır ve zamanla değişebilir.
 {% endhint %}
 
-API burada:&#x20;
+API bu pakete bağlı:&#x20;
 
 ```
 dev.lone.cosmeticscore.api.temporary
