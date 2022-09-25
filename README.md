@@ -1,23 +1,23 @@
-# 👋 Welcome
+# 👋 Selam!
 
 * [Patreon](http://patreon.com/lonedev)
 * [YouTube](http://youtube.com/lonedev)
 * [SpigotMC](https://www.spigotmc.org/members/lonedev.88296/#resources)
 * [Website](http://devs.beer)
-* [Steam developer page](https://store.steampowered.com/developer/LoneDev/)
+* [Steam geliştirici sayfası](https://store.steampowered.com/developer/LoneDev/)
 * [Discord](https://discord.gg/4dfnpUK)
 
-## Thanks to some awesome friends
+## Bazı harika dostlarıma teşekkürler
 
 ### Cha\_Shao
 
-Helped me a lot with the graphics assets of the plugin and beta testing.
+Bana pluginin grafikleri ve beta testlerinde çokça yardımcı oldu. 
 
 {% embed url="https://github.com/Cha-Shao" %}
 
 ### The\_Gust
 
-Helped with beta testing
+Beta testlerinde yardımcı oldu
 
 {% embed url="https://github.com/The-Gust" %}
 
