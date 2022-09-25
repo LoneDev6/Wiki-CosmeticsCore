@@ -1,12 +1,12 @@
-# 👌 Permissions
+# 👌 Yetkiler
 
-## Commands permissions
+## Komut yetkileri
 
 {% content-ref url="commands.md" %}
 [commands.md](commands.md)
 {% endcontent-ref %}
 
-## Cosmetics permission
+## Kozmetik yetkileri
 
-`cosmeticscore.user.cosmetics.<name>`\
-Example: `cosmeticscore.user.cosmetics.red_hat`
+`cosmeticscore.user.cosmetics.<kozmetik ismi>`\
+Örnek: `cosmeticscore.user.cosmetics.red_hat`
