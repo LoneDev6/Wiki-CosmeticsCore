@@ -1,4 +1,4 @@
-# API
+# ☕ Java API
 
 {% hint style="warning" %}
 This API is currently under development and can change during time

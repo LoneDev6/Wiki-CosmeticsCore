@@ -1,4 +1,4 @@
-# Terms of service
+# ⛔ Terms of service
 
 ## Plugin compatibility
 
