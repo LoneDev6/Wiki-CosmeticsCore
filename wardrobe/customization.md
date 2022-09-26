@@ -1,4 +1,4 @@
-# Customization
+# ⚙ Customization
 
 ## Configuration
 
@@ -63,7 +63,7 @@ To get these values just use `/coords` command of **Essentials** or use `F3`.
 
 Command: `/cosmeticsconfig config set camera-location`
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 ### Mannequin location
 
@@ -71,7 +71,7 @@ Command: `/cosmeticsconfig config set mannequin-location`
 
 Location of the player to preview the cosmetics in the wardrobe.
 
-![](<../.gitbook/assets/image (17).png>) ![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (12).png>) ![](<../.gitbook/assets/image (7).png>)
 
 ### Teleport area
 
@@ -79,7 +79,7 @@ This is a bit different, you have to set two points which represent the area in 
 
 Command: `/cosmeticsconfig config set door-area-locations`
 
-![](<../.gitbook/assets/image (19).png>)
+![](<../.gitbook/assets/image (13).png>)
 
 ### Exit location
 
@@ -87,7 +87,7 @@ Command: `/cosmeticsconfig config set exit-location`
 
 Location where the player will be teleported back when they leave the wardrobe.
 
-![](<../.gitbook/assets/image (25).png>)
+![](<../.gitbook/assets/image (22).png>)
 
 ## Other camera settings
 
@@ -128,7 +128,7 @@ HEX and integer colors are not supported for now.
 
 These properties are used to set colors of the slots in the wardrobe GUI.
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (18) (1).png>)
 
 * **Not owned**: color of the cosmetics not owned (no permission)
 * **Owned**: color of the cosmetics owned (with permission)

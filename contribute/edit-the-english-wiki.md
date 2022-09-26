@@ -6,19 +6,19 @@
 
 Open the [**Github** repository](https://github.com/LoneDev6/Wiki-CosmeticsCore) of this wiki, press on **`Fork`**.&#x20;
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 Make sure you're on the `master` branch.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 Select a file you want to edit and press the **pen** button
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 Edit the file and then press <mark style="color:green;">**Commit changes**</mark>
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 ## Important notes
@@ -33,7 +33,7 @@ Edit the file and then press <mark style="color:green;">**Commit changes**</mark
 
 ### Example of what you _<mark style="color:red;">must not</mark>_ edit
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 ### Last step
 
@@ -46,7 +46,7 @@ Would be good if you update your repository each time the main repository (the o
 To sync it you have to press **Fetch Upstream**.\
 [https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../.gitbook/assets/image (21).png>)
 
 \
 You can keep track of changes in the Discord notification channel.

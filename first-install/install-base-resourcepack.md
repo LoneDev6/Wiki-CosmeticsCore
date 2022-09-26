@@ -9,7 +9,7 @@ It also offers a set of example cosmetics which you can install if you want them
 
 Open the zip file which can be found here: `plugins/CosmeticsCore/default_assets.zip`
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 Folders:
 
@@ -31,13 +31,13 @@ If you already have a custom resourcepack on your server you must merge the **Co
 
 Copy `assets/z_cosmetics` and `assets/cosmetics` folder into your resourcepack.&#x20;
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2
 
 Open the file `assets/minecraft/models/item/fermented_spider_eye.json` with your favorite editor (example: **VSCode**) and don't close it (the file is inside the zip).
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 3
 

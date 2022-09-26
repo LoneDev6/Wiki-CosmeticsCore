@@ -81,11 +81,11 @@ This requires you to check ingame a few times until the model is correctly posit
 
 ### Normal model
 
-![](<../../../.gitbook/assets/image (8).png>)
+![](<../../../.gitbook/assets/image (3).png>)
 
 ### Self model
 
-![](<../../../.gitbook/assets/image (26).png>)
+![](<../../../.gitbook/assets/image (9).png>)
 
 ## Issues with big models
 
@@ -107,13 +107,13 @@ Select all the cubes in your model (click on any cube in the list and press CTRL
 
 Press on **Transform** (at the top) -> **Scale**.
 
-<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 3
 
 Set the scale to `0.5` or any low value (based on your model, you need to do some tests).
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 4
 
@@ -129,10 +129,10 @@ For example if the scale value was `1.3` you have to set it to `2.6`.
 
 <div>
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 </div>
