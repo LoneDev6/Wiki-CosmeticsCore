@@ -9,7 +9,7 @@ Make sure to read the [Usage terms](branding.md#usage-terms) before doing anythi
 
 ### Preview of the zip content
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/cosmeticscore_addon-banner.png" alt=""><figcaption></figcaption></figure>
 
