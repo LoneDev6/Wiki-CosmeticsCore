@@ -1,3 +1,3 @@
-# 🇬🇧 Translations
+# 🇬🇧 תרגומים
 
-You can translate the plugin by creating a new file in the `lang` folder and set it in the `config.yml` file.
+אתה יכול לתרגם את הפלאגין על ידי יצירת קובץ חדש בתיקיית `lang` ולהגדיר אותו בקובץ `config.yml`.

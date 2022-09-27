@@ -1,6 +1,6 @@
-# Customization
+# ⚙ התאמה אישית
 
-## Configuration
+## תצורה
 
 <details>
 
@@ -54,42 +54,42 @@ wardrobe_room:
 
 </details>
 
-## Locations
+## מיקומים
 
-You have to set the world and its coordinates, you can also set the yaw and pitch rotations.\
-To get these values just use `/coords` command of **Essentials** or use `F3`.
+אתה צריך לקבוע את העולם ואת הקואורדינטות שלו, אתה יכול גם להגדיר את סיבובים והגובה.\
+כדי לקבל ערכים אלה פשוט השתמש בפקודה `/coords` של **Essentials** או השתמש ב-F3`.
 
-### Camera location
+### מיקום המצלמה
 
-Command: `/cosmeticsconfig config set camera-location`
+פקודה: `/cosmeticsconfig config set camera-location`
 
 ![](<../.gitbook/assets/image (18).png>)
 
-### Mannequin location
+### מיקום בובות הראווה
 
-Command: `/cosmeticsconfig config set mannequin-location`
+פקודה: `/cosmeticsconfig config set mannequin-location`
 
-Location of the player to preview the cosmetics in the wardrobe.
+מיקום השחקן לתצוגה מקדימה של מוצרי הקוסמטיקה בארון הבגדים.
 
 ![](<../.gitbook/assets/image (19).png>) ![](<../.gitbook/assets/image (8).png>)
 
-### Teleport area
+### אזור שיגור
 
-This is a bit different, you have to set two points which represent the area in which the player can enter to open the wardrobe.
+זה קצת שונה, אתה צריך להגדיר שתי נקודות שמייצגות את האזור אליו השחקן יכול להיכנס כדי לפתוח את הארון.
 
-Command: `/cosmeticsconfig config set door-area-locations`
+פקודה: `/cosmeticsconfig config set door-area-locations`
 
 ![](<../.gitbook/assets/image (13).png>)
 
-### Exit location
+### יציאה ממיקום
 
-Command: `/cosmeticsconfig config set exit-location`
+פקודה: `/cosmeticsconfig config set exit-location`
 
-Location where the player will be teleported back when they leave the wardrobe.
+מיקום שבו השחקן יועבר בשיגור חזרה כאשר הוא עוזב את הארון.
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (22).png>)
 
-## Other camera settings
+## הגדרות מצלמה אחרות
 
 {% code title="" %}
 ```yaml
@@ -103,11 +103,11 @@ Location where the player will be teleported back when they leave the wardrobe.
 ```
 {% endcode %}
 
-* **Rotation**: Set if you want players to be able to rotate the preview
-* **Zoom**: Set if you want to enable zoom
-* **Fade Effect**: Set if you want to enable the black screen fade animation on enter-exit the wardrobe.
+* **סיבוב**: הגדר אם אתה רוצה ששחקנים יוכלו לסובב את התצוגה המקדימה
+* **זום**: הגדר אם ברצונך להפעיל זום
+* **אפקט דהייה**: הגדר אם ברצונך להפעיל את הנפשת דהיית מסך שחור בכניסה ליציאה מהארון.
 
-## Graphics customization
+## התאמה אישית של גרפיקה
 
 ```yaml
     slots:
@@ -122,16 +122,16 @@ Location where the player will be teleported back when they leave the wardrobe.
 {% hint style="warning" %}
 ### Warning
 
-Colors must be int RGB colors separated with a comma, you can get them from any color picker.\
-HEX and integer colors are not supported for now.
+הצבעים חייבים להיות צבעי RGB int מופרדים בפסיק, אתה יכול לקבל אותם מכל בוחר צבעים.\
+צבעי HEX ומספר שלם אינם נתמכים לעת עתה.
 {% endhint %}
 
-These properties are used to set colors of the slots in the wardrobe GUI.
+מאפיינים אלה משמשים לקביעת הצבעים של החריצים ב-GUI של הארון.
 
 ![](<../.gitbook/assets/image (3).png>)
 
-* **Not owned**: color of the cosmetics not owned (no permission)
-* **Owned**: color of the cosmetics owned (with permission)
-* **Wearing**: color of the cosmetics currently equipped
-* **Wearing** preview: color of the cosmetics currently equipped but not owned (no permission), equipped only as preview&#x20;
-* **Max amount reached**: color of all the other cosmetics which cannot be equipped because the player is already wearing the max amount for that category&#x20;
+* **לא בבעלות**: צבע מוצרי הקוסמטיקה לא בבעלות (ללא רשות)
+* **בבעלות**: צבע מוצרי הקוסמטיקה שבבעלות (ברשות)
+* **לבישה**: צבע הקוסמטיקה המצוידת כעת
+* **לבישה** תצוגה מקדימה: צבע מוצרי הקוסמטיקה המצוידים כעת אך אינם בבעלותם (ללא רשות), מצויד רק כתצוגה מקדימה&#x20;
+* **הכמות המקסימלית שהושגה**: צבע של כל מוצרי הקוסמטיקה האחרים שלא ניתן לצייד מכיוון שהשחקן כבר לובש את הכמות המקסימלית עבור אותה קטגוריה&#x20;

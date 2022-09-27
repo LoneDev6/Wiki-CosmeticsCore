@@ -1,6 +1,6 @@
-# Saving player data
+# 💾 שמירת נתוני שחקן
 
-## Configuration
+## תצורה
 
 ```yaml
 save:
@@ -16,11 +16,11 @@ save:
 
 ```
 
-## File
+## קובץ
 
-This is the default method, it uses a wardrobe file for each player.
+זוהי שיטת ברירת המחדל, היא משתמשת בקובץ ארון בגדים עבור כל שחקן.
 
 ## MySQL
 
-This is the method used by networks, this allows you to have multiple servers using the same wardrobe data for each player. Your players will then have the same equipped items when travelling on your network.\
-(this obviously requires you to set up the plugin on each server with the same cosmetics files).
+זו השיטה המשמשת רשתות, זה מאפשר לך להחזיק מספר שרתים המשתמשים באותם נתוני ארון בגדים עבור כל שחקן. אז לשחקנים שלך יהיו אותם פריטים מצוידים בעת נסיעה ברשת שלך.\
+(זה כמובן מחייב אותך להגדיר את הפלאגין בכל שרת עם אותם קבצי קוסמטיקה).

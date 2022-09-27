@@ -1,43 +1,43 @@
-# Normal and self models
+# מודלים רגילים ועצמיים
 
-## Introduction
+## מבוא
 
-It's important to have two separated models because the self model will avoid getting the player view occupied by the cosmetic and potentially cause annoyances during the gameplay (placing blocks, attacking, walking).
+חשוב שיהיו שני דגמים נפרדים מכיוון שהמודל העצמי ימנע מהשגחת הראייה של השחקן על ידי הקוסמטיקה ועלול לגרום למטרדים במהלך המשחק (הצבת בלוקים, התקפה, הליכה).
 
 {% tabs %}
-{% tab title="Without the self model" %}
+{% tab title="בלי המודל העצמי" %}
 ![](../../../.gitbook/assets/2022-08-17\_17.47.53.png)
 
 ![](../../../.gitbook/assets/2022-08-17\_17.48.40.png)
 {% endtab %}
 
-{% tab title="With the self model" %}
+{% tab title="עם המודל העצמי" %}
 ![](../../../.gitbook/assets/2022-08-17\_17.48.16.png)
 
 ![](../../../.gitbook/assets/2022-08-17\_17.48.40.png)
 {% endtab %}
 {% endtabs %}
 
-### Normal model
+### דגם רגיל
 
-A normal model is the model which is shown to every player but the local player (yourself).
+מודל רגיל הוא המודל שמוצג לכל שחקן מלבד השחקן המקומי (בעצמך).
 
-### Self model
+### מודל עצמי
 
-A self model is the model which is shown ONLY to the local player (yourself).
+מודל עצמי הוא המודל שמוצג רק לשחקן המקומי (בעצמך).
 
-## Implementing the fix
+## יישום התיקון
 
-### Step 1
+### שלב 1
 
-You have to make a copy of your `.json` model file, rename it `_self.json`.\
-For example: `squirrel_tail.json` -> `squirrel_tail_self.json`
+עליך ליצור עותק של קובץ המודל `.json` שלך, לשנות את שמו `_self.json`.\
+לדוגמה: `squirrel_tail.json` -> `squirrel_tail_self.json`
 
-### Step 2
+### שלב 2
 
-Decide a new **CustomModelData** for that item and add it to the item file or use ItemAdder to automate the process (depends on your needs, refer to [ItemsAdder wiki ](https://itemsadder.devs.beer/)to learn how to create items).
+קבע **CustomModelData** חדש עבור פריט זה והוסף אותו לקובץ הפריט או השתמש ב-ItemAdder כדי להפוך את התהליך לאוטומטי (תלוי בצרכים שלך, עיין ב[ItemsAdder wiki ](https://itemsadder.devs.beer/) ל למד כיצד ליצור פריטים).
 
-In this example I use `400008` for the **normal** model and `400009` for the **self** model.
+בדוגמה זו אני משתמש ב-`400008` עבור הדגם **רגיל** וב-`400009` עבור המודל **עצמי**.
 
 `assets/minecraft/models/item/XXX.json`
 
@@ -52,9 +52,9 @@ In this example I use `400008` for the **normal** model and `400009` for the **s
 },
 ```
 
-### Step 3
+### שלב 3
 
-Edit your cosmetics configuration and add the **self** model.
+ערוך את תצורת הקוסמטיקה שלך והוסף את דגם ה**עצמי**.
 
 ```yaml
   squirrel_tail:
@@ -68,64 +68,64 @@ Edit your cosmetics configuration and add the **self** model.
       enabled: false
 ```
 
-### Step 4
+### שלב 4
 
-This is the most important step, you have to edit the **self** model.\
-You have to move the model down like that, then view it ingame until you're satisfied with the result.
+זה השלב החשוב ביותר, עליך לערוך את מודל ה**עצמי**.\
+אתה צריך להזיז את הדגם למטה ככה, ואז לראות אותו במשחק עד שתהיה מרוצה מהתוצאה.
 
-This requires you to check ingame a few times until the model is correctly positioned, it requires some tries to achieve the perfect location, but you can easily use some of the example models  in order to avoid losing time.vi
+זה מחייב אותך לבדוק את המשחק מספר פעמים עד שהמודל ימוקם נכון, זה דורש כמה ניסיונות להשיג את המיקום המושלם, אבל אתה יכול בקלות להשתמש בכמה מהדגמים לדוגמה כדי למנוע אובדן זמן.vi
 
 {% embed url="https://youtu.be/dmQI35Xd4Js" %}
 
-## Differences
+## הבדלים
 
-### Normal model
+### דגם רגיל
 
 ![](<../../../.gitbook/assets/image (23).png>)
 
-### Self model
+### מודל עצמי
 
 ![](<../../../.gitbook/assets/image (10).png>)
 
-## Issues with big models
+## בעיות עם דגמים גדולים
 
-&#x20;Read here if you cannot move the model down because your model is too big.
+&#x20;קרא כאן אם אינך יכול להזיז את הדגם למטה מכיוון שהדגם שלך גדול מדי.
 
 <figure><img src="../../../.gitbook/assets/move_down_problem.gif" alt=""><figcaption></figcaption></figure>
 
-## Video version
+## גרסת וידאו
 
 {% embed url="https://youtu.be/WBImTCMOZNA" %}
 
-## Text Version
+## גרסת טקסט
 
-### Step 1
+### שלב 1
 
-Select all the cubes in your model (click on any cube in the list and press CTRL+A).
+בחר את כל הקוביות בדגם שלך (לחץ על כל קובייה ברשימה והקש CTRL+A).
 
-### Step 2
+### שלב 2
 
-Press on **Transform** (at the top) -> **Scale**.
-
-<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
-
-### Step 3
-
-Set the scale to `0.5` or any low value (based on your model, you need to do some tests).
+לחץ על **טרנספורמציה** (בחלק העליון) -> **קנה מידה**.
 
 <figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
-### Step 4
+### שלב 3
 
-Move the item down in the edit view.
+הגדר את הסולם ל-'0.5' או כל ערך נמוך (בהתבסס על הדגם שלך, אתה צריך לעשות כמה בדיקות).
 
-### Step 5
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-Now open the Display tab, press on the ArmorStand and HEAD icons and then move it down.\
-Then double the scale value.\
-For example if the scale value was `1.3` you have to set it to `2.6`.
+### שךב 4
 
-### Result
+הזז את הפריט למטה בתצוגת העריכה.
+
+### שלב 5
+
+כעת פתח את לשונית התצוגה, לחץ על הסמלים ArmorStand ו-HEAD ולאחר מכן הזז אותו למטה.\
+לאחר מכן הכפיל את ערך הסולם.\
+לדוגמה, אם ערך קנה המידה היה `1.3`, עליך להגדיר אותו ל-`2.6`.
+
+### תוצאה
 
 <div>
 

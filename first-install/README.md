@@ -1,26 +1,26 @@
-# ⚙ First install
+# ⚙ התקנה ראשונה
 
-## Installing the plugin
+## התקנת הפלאגין
 
-### Step 1
+### שלב 1
 
-* install [LoneLibs](https://www.spigotmc.org/resources/lonelibs.75974/)
-* install [ProtocolLib](https://ci.dmulloy2.net/job/ProtocolLib/lastSuccessfulBuild/)
+* להתקין [LoneLibs](https://www.spigotmc.org/resources/lonelibs.75974/)
+* להתקין [ProtocolLib](https://ci.dmulloy2.net/job/ProtocolLib/lastSuccessfulBuild/)
 
 {% hint style="warning" %}
-This plugin requires some mid-level knowledge on how resourcepacks works.\
-Please don't ask for support for basic questions about resourcepacks, ask to the community about this kind of questions.
+פלאגין זה דורש ידע ברמה בינונית לגבי אופן הפעולה של ערכות משאבים.\
+נא לא לבקש תמיכה בשאלות בסיסיות על חבילות משאבים, שאל את הקהילה לגבי שאלות מסוג זה.
 {% endhint %}
 
-### Step 2
+### שלב 2
 
-You have to setup the wardrobe location, preview location, enter/exit location and various settings, please read here:
+עליך להגדיר את מיקום הארון, מיקום התצוגה המקדימה, מיקום כניסה/יציאה והגדרות שונות, אנא קרא כאן:
 
 {% content-ref url="../wardrobe/customization.md" %}
 [customization.md](../wardrobe/customization.md)
 {% endcontent-ref %}
 
-### Step 3
+### שלב 3
 
 {% content-ref url="install-base-resourcepack.md" %}
 [install-base-resourcepack.md](install-base-resourcepack.md)

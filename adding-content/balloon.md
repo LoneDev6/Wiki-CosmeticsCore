@@ -1,20 +1,20 @@
-# 🎈 Balloon
+# 🎈 בלון
 
 {% hint style="warning" %}
-### Balloons require ItemsAdder to work.
+### בלונים דורשים את ItemsAdder כדי לעבוד.
 {% endhint %}
 
-## Creating a balloon
+## יצירת בלון
 
-### Step 1
+### שלב 1
 
-Create an ItemsAdder entity reading the tutorial:
+צור ישות ItemsAdder שקוראת את המדריך:
 
 {% embed url="https://itemsadder.devs.beer/plugin-usage/adding-content/mobs/advanced-method/creation" %}
 
-### Step 2
+### שלב 2
 
-Create the cosmetic configuration
+צור את התצורה הקוסמטית
 
 ```yaml
   # Example custom kite created with ItemsAdder entities 
@@ -30,18 +30,17 @@ Create the cosmetic configuration
     dye:
       enabled: true
 ```
+כפי שאתה יכול לראות, הגדרתי את המודל ה'רגיל' לשם של **הישות המותאמת אישית** שנוצרה עם ItemsAdder.
 
-As you can see I set the `normal` model to the name of the **custom entity** created with ItemsAdder.
+### שלב 3
 
-### Step 3
+אתה סיימת
 
-You're done
+![](<../.gitbook/assets/image (8) (1).png>)
 
-![](<../.gitbook/assets/image (20).png>)
-
-## Final notes
+## הערות אחרונות
 
 {% hint style="info" %}
-You can even create animated balloons, just animate the idle animation of the entity using Blockbench.\
-For example you can create a complex dragon or a rotating UFO. &#x20;
+אתה יכול אפילו ליצור בלונים מונפשים, פשוט הנפשה את הנפשה סרק של הישות באמצעות Blockbench.\
+לדוגמה אתה יכול ליצור דרקון מורכב או עב"ם מסתובב. &#x20;
 {% endhint %}

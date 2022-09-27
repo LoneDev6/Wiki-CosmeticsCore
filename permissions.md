@@ -1,12 +1,12 @@
-# 👌 Permissions
+# 👌 הרשאות
 
-## Commands permissions
+## הרשאות פקודות
 
 {% content-ref url="commands.md" %}
 [commands.md](commands.md)
 {% endcontent-ref %}
 
-## Cosmetics permission
+## הרשאות לקוסמטיקה
 
 `cosmeticscore.user.cosmetics.<name>`\
-Example: `cosmeticscore.user.cosmetics.red_hat`
+דוגמא: `cosmeticscore.user.cosmetics.red_hat`

@@ -1,8 +1,8 @@
-# 🧢 Hat
+# 🧢 כובע
 
-## CustomModelData hat
+## כובע CustomModelData
 
-You can create custom hats simply by using CustomModelData.
+אתה יכול ליצור כובעים מותאמים אישית פשוט באמצעות CustomModelData.
 
 ```yaml
   # Example manually created hat with CustomModelData
@@ -16,16 +16,16 @@ You can create custom hats simply by using CustomModelData.
       enabled: false
 ```
 
-In this example I created a custom hat with CustomModelData `300003`.\
-I decided to use the same item both for the GUI preview and for the actual item which will be put on player's head.&#x20;
+בדוגמה זו יצרתי כובע מותאם אישית עם CustomModelData `300003`.\
+החלטתי להשתמש באותו פריט הן עבור התצוגה המקדימה של GUI והן עבור הפריט בפועל אשר יונח על ראשו של השחקן.&#x20;
 
-I set `dyeable: false` to avoid this item from being colored.
+I set `dyeable: false` כדי למנוע צביעה של פריט זה.
 
-## ItemsAdder model
+## דגם ItemsAdder
 
-You can do the same thing but with ItemsAdder items models and avoid worrying about CustomModelData.
+אתה יכול לעשות את אותו הדבר אבל עם דגמי פריטי ItemsAdder ולהימנע מדאגה לגבי CustomModelData.
 
-Example:
+דוגמא:
 
 ```yaml
   # Example manually created hat with CustomModelData
@@ -39,7 +39,7 @@ Example:
       enabled: false
 ```
 
-In this example you can see I used `my_items:cowboy_hat_icon` as icon `my_items:cowboy_hat` as item.\
-They both are items from ItemsAdder.
+בדוגמה זו אתה יכול לראות שהשתמשתי ב-'my_items:cowboy_hat_icon' כסמל 'my_items:cowboy_hat' כפריט.\
+שניהם פריטים מ-ItemsAdder.
 
-I set `dyeable: false` to avoid this item from being colored.
+I set `dyeable: false` כדי למנוע צביעה של פריט זה.

@@ -1,55 +1,55 @@
-# Edit the English wiki
+# ערוך את הוויקי האנגלית
 
-## How to edit this wiki?
+## איך לערוך את הוויקי הזה?
 
-### Setting up your repository
+### הגדרת המאגר שלך
 
-Open the [**Github** repository](https://github.com/LoneDev6/Wiki-CosmeticsCore) of this wiki, press on **`Fork`**.&#x20;
+פתח את מאגר [**Github**](https://github.com/LoneDev6/Wiki-CosmeticsCore) של ויקי זה, לחץ על **`Fork`**.&#x20;
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-Make sure you're on the `master` branch.
+ודא שאתה בסניף `מאסטר`.
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-Select a file you want to edit and press the **pen** button
+בחר קובץ שברצונך לערוך ולחץ על הלחצן **עט**
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-Edit the file and then press <mark style="color:green;">**Commit changes**</mark>
+ערוך את הקובץ ולאחר מכן הקש <mark style="color:green;">**בצע שינויים**</mark>
 
 <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-## Important notes
+## הערות חשובות
 
-* Do not remove the `#` special characters, edit only the next text, these are titles.
-* Do not remove or edit special texts inside `{ }`, for example `{% hint style="info" %}`, these are used to create the hint message boxes.
-* Do not remove `*` character, these are used to create lists
-* Do not remove emojis
-* Do not edit or remove the `--- description: ---` text on top of some pages, edit only the inner text.
-* Do not remove `\` on some lines end
+* אל תסיר את התווים המיוחדים '#', ערוך רק את הטקסט הבא, אלו הן כותרות.
+* אין להסיר או לערוך טקסטים מיוחדים בתוך `{ }`, למשל `{% hint style="info" %}`, אלה משמשים ליצירת תיבות הודעות הרמז.
+* אל תסיר את התו '*', אלה משמשים ליצירת רשימות
+* אל תסיר אימוג'י
+* אין לערוך או להסיר את הטקסט `--- תיאור: ---` בראש חלק מהעמודים, ערוך רק את הטקסט הפנימי.
+* אל תסיר את '\' בקצה השורות
 {% endhint %}
 
-### Example of what you _<mark style="color:red;">must not</mark>_ edit
+דוגמה למה שאתה _<mark style="color:red;">מוכרח לא</mark>_ לערוך
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-### Last step
+### צעד אחרון
 
-Contact **LoneDev** in order to get your changes reviewed and added to the wiki.\
-Feel free to ping **LoneDev** on the Discord or to open a support ticket in the community channel.
+צור קשר עם **LoneDev** כדי לבחון את השינויים שלך ולהוסיף אותם לויקי.\
+אתם מוזמנים לעשות פינג **LoneDev** בדיסקורד או לפתוח טיקט תמיכה בחדר הקהילה.
 
 {% hint style="info" %}
-Would be good if you update your repository each time the main repository (the one in English) gets edited, to reflect changes.
+יהיה טוב אם תעדכן את המאגר שלך בכל פעם שהמאגר הראשי (זה באנגלית) נערך, כדי לשקף שינויים.
 
-To sync it you have to press **Fetch Upstream**.\
+כדי לסנכרן אותו עליך ללחוץ על **אחזר במעלה הזרם**.\
 [https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
 
 ![](<../.gitbook/assets/image (15).png>)
 
 \
-You can keep track of changes in the Discord notification channel.
+אתה יכול לעקוב אחר שינויים בחדר ההתראות של Discord.
 
 ![](<../.gitbook/assets/image (27).png>)
 {% endhint %}

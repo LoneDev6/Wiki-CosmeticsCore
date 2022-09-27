@@ -1,37 +1,37 @@
-# 🖥 Commands
+# 🖥 פקודות
 
-### Open the wardrobe
+### פתח את הארון
 
 `/wardrobe`
 
-Permission: `cosmeticscore.user.command.wardrobe`
+גישה: `cosmeticscore.user.command.wardrobe`
 
-### Reload config.yml
+### טען מחדש את config.yml
 
 `/cosmeticsconfig config reload`
 
-Permission: `cosmeticscore.admin.command.cosmeticsconfig`
+גישה: `cosmeticscore.admin.command.cosmeticsconfig`
 
-### Reload cosmetics
+### טען מחדש מוצרי קוסמטיקה
 
 `/cosmeticsconfig cosmetics reload`
 
-Permission: `cosmeticscore.admin.command.cosmeticsconfig`
+גישה: `cosmeticscore.admin.command.cosmeticsconfig`
 
-### Force wear cosmetic
+### מכריחים ללבוש קוסמטיקה
 
 `/cosmetics <player> add <name> [silent|not-silent]`
 
-Permission: `cosmeticscore.admin.command.cosmetics`
+גישה: `cosmeticscore.admin.command.cosmetics`
 
-### Force un-wear cosmetic
+### מכריחים לבטל קוסמטיקה
 
 `/cosmetics <player> remove <name> [silent|not-silent]`
 
-Permission: `cosmeticscore.admin.command.cosmetics`
+גישה: `cosmeticscore.admin.command.cosmetics`
 
-### Force un-wear all cosmetics
+### הכריח לבטל את כל מוצרי הקוסמטיקה
 
 `/cosmetics <player> remove-all [silent|not-silent]`
 
-Permission: `cosmeticscore.admin.command.cosmetics`
+גישה: `cosmeticscore.admin.command.cosmetics`

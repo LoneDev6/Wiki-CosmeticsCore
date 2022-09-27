@@ -1,23 +1,23 @@
-# 👋 Welcome
+# 👋 ברוכים הבאים
 
-* [Patreon](http://patreon.com/lonedev)
-* [YouTube](http://youtube.com/lonedev)
-* [SpigotMC](https://www.spigotmc.org/members/lonedev.88296/#resources)
-* [Website](http://devs.beer)
-* [Steam developer page](https://store.steampowered.com/developer/LoneDev/)
-* [Discord](https://discord.gg/4dfnpUK)
+* [פטראון](http://patreon.com/lonedev)
+* [יוטיוב](http://youtube.com/lonedev)
+* [ספיגוט](https://www.spigotmc.org/members/lonedev.88296/#resources)
+* [אתר](http://devs.beer)
+* [עמוד מפתחי Steam](https://store.steampowered.com/developer/LoneDev/)
+* [דיסקורד](https://discord.gg/4dfnpUK)
 
-## Thanks to some awesome friends
+## תודה לכמה חברים מדהימים
 
 ### Cha\_Shao
 
-Helped me a lot with the graphics assets of the plugin and beta testing.
+עזר לי מאוד עם הדברים הגרפיים של הפלאגין ובדיקות בטא.
 
 {% embed url="https://github.com/Cha-Shao" %}
 
 ### The\_Gust
 
-Helped with beta testing
+עזר בבדיקות בטא
 
 {% embed url="https://github.com/The-Gust" %}
 

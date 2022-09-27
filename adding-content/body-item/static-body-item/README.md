@@ -1,10 +1,10 @@
-# Static Body Item
+# פריט גוף סטטי
 
-## Creation methods
+## שיטות יצירה
 
-### CustomModelData body item
+### פריט גוף CustomModelData
 
-You can create custom body items simply by using CustomModelData.
+אתה יכול ליצור פריטי גוף מותאמים אישית פשוט באמצעות CustomModelData.
 
 ```yaml
   # Example manually created hat with CustomModelData
@@ -19,17 +19,17 @@ You can create custom body items simply by using CustomModelData.
       enabled: false
 ```
 
-In this example I created a custom body item with CustomModelData `400008`.\
-I decided to use the same item both for the GUI preview and for the actual item which will be put on player's body.\
-I then set a self model, which is the model shown only to the local player and not to the other players, in this case I set the CustomModelData to `400009`.&#x20;
+בדוגמה זו יצרתי פריט גוף מותאם אישית עם CustomModelData `400008`.\
+החלטתי להשתמש באותו פריט הן עבור התצוגה המקדימה של ממשק המשתמש והן עבור הפריט בפועל אשר יוצב על גוף השחקן.\
+לאחר מכן הגדרתי מודל עצמי, שהוא המודל המוצג רק לנגן המקומי ולא לשחקנים האחרים, במקרה זה הגדרתי את CustomModelData ל-`400009`.&#x20;
 
-I set `dyeable: false` to avoid this item from being colored.
+הגדרתי 'dyeable: false' כדי למנוע את צביעה של פריט זה
 
-### ItemsAdder model
+### דגם ItemsAdder
 
-You can do the same thing but with ItemsAdder items models and avoid worrying about CustomModelData.
+אתה יכול לעשות את אותו הדבר אבל עם דגמי פריטי ItemsAdder ולהימנע מדאגה לגבי CustomModelData.
 
-Example:
+דוגמא:
 
 ```yaml
   # Example manually created hat with CustomModelData
@@ -44,13 +44,13 @@ Example:
       enabled: false
 ```
 
-In this example I created a custom body item by using the ItemsAdder model named `squirrel_tail`.\
-I decided to use the same item both for the GUI preview and for the actual item which will be put on player's body.\
-I then set a self model, which is the model shown only to the local player and not to the other players, in this case I set it to `squirrel_tail_self`.
+בדוגמה זו יצרתי פריט גוף מותאם אישית על ידי שימוש במודל ItemsAdder בשם `squirrel_tail`.\
+החלטתי להשתמש באותו פריט הן עבור התצוגה המקדימה של ממשק המשתמש והן עבור הפריט בפועל אשר יוצב על גוף השחקן.\
+לאחר מכן הגדרתי מודל עצמי, שהוא המודל שמוצג רק לשחקן המקומי ולא לשחקנים האחרים, במקרה הזה הגדרתי אותו ל-`squirrel_tail_self`.
 
-I set `dyeable: false` to avoid this item from being colored.
+הגדרתי 'dyeable: false' כדי למנוע את צביעה של פריט זה.
 
-## Avoid cosmetics from obstructing view
+## הימנע ממוצרי קוסמטיקה כדי לחסום את הנוף
 
 {% content-ref url="normal-and-self-models.md" %}
 [normal-and-self-models.md](normal-and-self-models.md)

@@ -1,33 +1,33 @@
-# ❓ Frequently asked questions
+# ❓ שאלות נפוצות
 
-## Successfully introduce cosmetics in your server
+## הכנס בהצלחה מוצרי קוסמטיקה בשרת שלך
 
 {% hint style="info" %}
-1. You must not make them easy to obtain. Make them a rare perk for donors or special events prizes (example: seasonal quests, boss battle prizes, staff members exclusive, donors exclusive)
-2. Always make sure to publish a new cosmetic when you are 100% sure you want to keep it forever in your server. People don't like to buy cosmetics and see them removed after some time.
-3. Make unique cosmetics, don't make useless variations of the same cosmetic design.
+1. אסור לעשות אותם קלים להשגה. הפוך אותם להטבה נדירה עבור תורמים או פרסים לאירועים מיוחדים (לדוגמה: משימות עונתיות, פרסי קרב בוס, חברי צוות בלעדיים, תורמים בלעדיים)
+2. הקפד תמיד לפרסם קוסמטיקה חדשה כאשר אתה בטוח ב-100% שאתה רוצה לשמור אותו לנצח בשרת שלך. אנשים לא אוהבים לקנות מוצרי קוסמטיקה ולראות אותם מוסרים לאחר זמן מה.
+3. הכינו מוצרי קוסמטיקה ייחודיים, אל תעשו וריאציות חסרות תועלת של אותו עיצוב קוסמטי.
 {% endhint %}
 
-## Offhand cosmetics (left hand)
+## מוצרי קוסמטיקה בשטח (יד שמאל)
 
-Why aren't offhand cosmetics available in this plugin?
+מדוע לא זמינים מוצרי קוסמטיקה מזדמנים בפלאגין הזה?
 
-The reason is that offhand is a slot heavily used in the Minecraft gameplay to hold important items, for example shield, totems and other items.\
-Using the offhand to place cosmetics would mean that the user won't really know which is the original item under the cosmetic, this would cause extreme confusion between players.
+הסיבה היא שבאופן ישיר הוא חריץ בשימוש רב במשחקי מיינקראפט כדי להחזיק פריטים חשובים, למשל מגן, טוטמים ופריטים אחרים.\
+שימוש באכזריות להנחת מוצרי קוסמטיקה פירושו שהמשתמש לא באמת יידע מהו הפריט המקורי מתחת לקוסמטיקה, זה יגרום לבלבול קיצוני בין השחקנים.
 
-Imagine a player getting shot with a bow by another player who is apparently holding a cosmetic flower. In reality they are holding a bow.
+דמיינו שחקן שנורה בקשת על ידי שחקן אחר שככל הנראה מחזיק פרח קוסמטי. במציאות הם מחזיקים בקשת.
 
-Imagine a player during PVP, they won't know if they still have their shield or not in offhand.
+תארו לעצמכם שחקן במהלך PVP, הוא לא יידע אם עדיין יש לו את המגן שלו או לא בחוץ.
 
-Imagine a player which can't know if they still have their totem in offhand.
+תארו לעצמכם שחקן שלא יכול לדעת אם יש לו עדיין את הטוטם שלו בפנים.
 
-You may think: "you just need to open inventory and check".\
-Imagine how annoying would be to have to open the inventory each 5 seconds in order to check durability of the shield in offhand.
+אולי תחשוב: "אתה רק צריך לפתוח מלאי ולבדוק".\
+תארו לעצמכם כמה מעצבן יהיה לפתוח את המלאי כל 5 שניות על מנת לבדוק את עמידות המגן באופן ישיר.
 
-## Multiple hats cosmetics
+## כובעים מרובים קוסמטיקה
 
-You cannot have more than 1 hat cosmetics equipped at the same time.
+אתה לא יכול להצטייד ביותר ממוצר קוסמטיקה כובע אחד בו-זמנית.
 
-The hat cosmetic uses the helmet slot of your player, you cannot have more than 1 item at the same time in this slot, it's a limitation of the game.
+קוסמטיקה כובע משתמש בסלוט הקסדה של השחקן שלך, אתה לא יכול להחזיק יותר מפריט אחד בו-זמנית בסלוט זה, זו מגבלה של המשחק.
 
-There is no way to bypass this limitation.
+אין דרך לעקוף מגבלה זו.

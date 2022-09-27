@@ -1,20 +1,20 @@
-# Advanced Body Item
+# פריט גוף מתקדם
 
 {% hint style="warning" %}
-### Advanced body item require ItemsAdder to work.
+### פריט גוף מתקדם דורש את ItemsAdder כדי לעבוד.
 {% endhint %}
 
-## Creating the entity
+## יצירת הישות
 
-### Step 1
+### שלב 1
 
-Create an ItemsAdder entity reading the tutorial:
+צור ישות ItemsAdder שקוראת את המדריך:
 
 {% embed url="https://itemsadder.devs.beer/plugin-usage/adding-content/mobs/advanced-method/creation" %}
 
-### Step 2
+### שלב 2
 
-Create the cosmetic configuration
+צור את התצורה הקוסמטית
 
 ```yaml
   wings_enderdragon:
@@ -27,38 +27,37 @@ Create the cosmetic configuration
       enabled: false
 ```
 
-As you can see I set the `normal` model to the name of the **custom entity** created with ItemsAdder.
+כפי שאתה יכול לראות, הגדרתי את המודל ה'רגיל' לשם של **הישות המותאמת אישית** שנוצרה עם ItemsAdder.
 
-### Step 3
+### שלב 3
 
-You're done
+אתה סיימת
 
 <figure><img src="../../.gitbook/assets/ezgif-4-5e5291072e.gif" alt=""><figcaption></figcaption></figure>
 
-## Final notes
+## הערות אחרונות
 
 {% hint style="info" %}
-You can even create animated cosmetics, just animate the idle animation of the entity using Blockbench.
+אתה יכול אפילו ליצור מוצרי קוסמטיקה מונפשים, פשוט הנפשה את האנימציה הסרק של הישות באמצעות Blockbench.
 {% endhint %}
 
-## Known issues
+## בעיות ידועות
 
 {% hint style="warning" %}
-### Delayed cosmetic while moving
+### קוסמטיקה מושהית בזמן תנועה
+זוהי בעיה ידועה ולא ניתן לתקן אותה, אך שימו לב שהתנהגות זו גלויה רק לשחקן הנוכחי.\
 
-This is a known issue and cannot be fixed, but note that this behavior is only visible by the current player.\
 
-
-All other players will see the cosmetic attached to the player with less delay.\
-This also depends on the player ping and on the server performance.
+כל שאר השחקנים יראו את הקוסמטיקה מחוברת לשחקן עם פחות עיכוב.\
+זה תלוי גם בפינג השחקן ובביצועי השרת.
 {% endhint %}
 
 {% tabs %}
-{% tab title="Current player view" %}
+{% tab title="תצוגת שחקן נוכחי" %}
 {% embed url="https://youtu.be/TiR3SKT_JRE" %}
 {% endtab %}
 
-{% tab title="Other players view" %}
+{% tab title="שחקנים אחרים רואים" %}
 {% embed url="https://youtu.be/YGCt6RXiMRw" %}
 {% endtab %}
 {% endtabs %}

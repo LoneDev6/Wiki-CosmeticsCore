@@ -1,96 +1,96 @@
-# Install base resourcepack
+# התקן את חבילת המשאבים הבסיסית
 
-**CosmeticsCore** uses a resourcepack to work.\
-The pack includes also the GUI and various UI interfaces which are mandatory for the plugin to work.
+**CosmeticsCore** משתמש בחבילת משאבים כדי לעבוד.\
+החבילה כוללת גם את ה-GUI וממשקי UI שונים שהם חובה כדי שהפלאגין יפעל.
 
-It also offers a set of example cosmetics which you can install if you want them.
+הוא מציע גם סט של מוצרי קוסמטיקה לדוגמה שתוכל להתקין אם תרצה בהם.
 
-## Installation
+## התקנה
 
-Open the zip file which can be found here: `plugins/CosmeticsCore/default_assets.zip`
+פתח את קובץ ה-zip שניתן למצוא כאן: `plugins/CosmeticsCore/default_assets.zip`
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-Folders:
+תיקיות:
 
-* `Resourcepack` -> contains the resourcepack with all the models/textures
-* `ItemsAdder_configurations` -> contains the **ItemsAdder** balloons entities configurations
-* `CosmeticsCore_configurations` -> contains the **CosmeticsCore** default cosmetics configuration
+* `Resourcepack` -> מכיל את חבילת המשאבים עם כל המודלים/טקסטורות
+* `ItemsAdder_configurations` -> מכיל את תצורות (היצורים) הבלונים **ItemsAdder**
+* `CosmeticsCore_configurations` -> מכיל את תצורת ברירת המחדל של מוצרי קוסמטיקה **CosmeticsCore**
 
 
 
-## Installing the resourcepack <mark style="color:orange;">if you already have a custom resourcepack</mark>
+## התקנת חבילת המשאבים <mark style="color:orange;">אם כבר יש לך חבילת משאבים מותאמת אישית</mark>
 
 {% hint style="warning" %}
-Read [here](install-base-resourcepack.md#installing-the-resource-pack-if-you-dont-have-a-resourcepack) if you don't have a resourcepack.
+לקרוא [כאן](install-base-resourcepack.md#installing-the-resource-pack-if-you-dont-have-a-resourcepack) אם אין לך חבילת משאבים.
 {% endhint %}
 
-If you already have a custom resourcepack on your server you must merge the **CosmeticsCore** assets and (optional) default cosmetics.
+אם כבר יש לך ערכת משאבים מותאמת אישית בשרת שלך, עליך למזג את הדברים **CosmeticsCore** ואת מוצרי ברירת המחדל (אופציונליים).
 
-### Step 1
+### שלב 1
 
-Copy `assets/z_cosmetics` and `assets/cosmetics` folder into your resourcepack.&#x20;
+להעתיק `assets/z_cosmetics` ו `assets/cosmetics` תיקייה לתוך חבילת המשאבים שלך.&#x20;
 
 <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-### Step 2
+### שלב 2
 
-Open the file `assets/minecraft/models/item/fermented_spider_eye.json` with your favorite editor (example: **VSCode**) and don't close it (the file is inside the zip).
+פתח את הקובץ `assets/minecraft/models/item/fermented_spider_eye.json` עם העורך האהוב עליך (לדוגמא: **VSCode**) ואל תסגור אותו (הקובץ נמצא בתוך ה-zip).
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
-### Step 3
+### שלב 3
 
-Open the same previous file path in **YOUR** resourcepack (`fermented_spider_eye.json`).
+פתח את אותו נתיב קובץ קודם בחבילת המשאבים **שלך** (`fermented_spider_eye.json`).
 
-Note: if you don't have this file in your resourcepack skip this step and simply copy and paste the `fermented_spider_eye.json` file inside your resoucepack into this path `assets/minecraft/models/item/fermented_spider_eye.json` .\
+הערה: אם אין לך את הקובץ הזה בחבילת המשאבים שלך דלג על שלב זה ופשוט העתק והדבק את הקובץ `fermented_spider_eye.json` בתוך ערכת המשאבים שלך לנתיב זה`assets/minecraft/models/item/fermented_spider_eye.json` .\
 
 
-Use this tool to merge the **CosmeticsCore** file and your file:
+השתמש בכלי זה כדי למזג את הקובץ **CosmeticsCore** והקובץ שלך:
 
 {% embed url="https://itemsadder.github.io/jsonmerger/" %}
 
 {% hint style="info" %}
-`Json 1` is your json file, `Json 2` is the `CosmeticsCore` json file.
+`Json 1` הוא קובץ ה-json שלך, `Json 2` הוא קובץ ה-json `CosmeticsCore`.
 
-The result json is the one you will have to replace in your pack.
+התוצאה json היא זו שתצטרך להחליף בחבילה שלך.
 {% endhint %}
 
-Now copy the result json and paste it into your old json file.
+כעת העתק את התוצאה json והדבק אותה בקובץ ה-json הישן שלך.
 
-### Step 4
+### שלב 4
 
-Follow the same previous steps for `potion.json`.
+בצע את אותם השלבים הקודמים עבור `potion.json`.
 
-## Installing the resource pack if you <mark style="color:orange;">don't</mark> have a resourcepack
+## התקנת חבילת המשאבים אם <mark style="color:orange;">אין</mark> לך חבילת משאבים
 
-### Step 1
+### שלב 1
 
-Extract the `Resourcepack` folder from the zip file to any folder of your PC.
+חלץ את תיקיית 'Resourcepack' מקובץ ה-zip לכל תיקיה במחשב שלך.
 
-### Step 2
+### שלב 2
 
-Compress the `Resourcepack` folder CONTENTS (do not compress the folder itself).\
-Select all the files and compress them.
+דחוס את התיקיה 'Resourcepack' תוכן (אל תדחס את התיקיה עצמה).\
+בחר את כל הקבצים ודחס אותם.
 
 <figure><img src="../.gitbook/assets/select.gif" alt=""><figcaption></figcaption></figure>
 
-### Step 3
+### שלב 3
 
-Now decide a way to host your resourcepack, you usually would use **Dropbox** and `server.properties`. Do some research online on how to host resourcepacks.
+כעת החליטו על דרך לארח את חבילת המשאבים שלכם, בדרך כלל תשתמשו ב-**Dropbox** וב-`server.properties`. בצע מחקר מקוון כיצד לארח חבילות משאבים.
 
-## Installing the default cosmetics configuration
+## התקנת תצורת ברירת המחדל של מוצרי קוסמטיקה
 
-Open the zip file which can be found here: `plugins/CosmeticsCore/default_assets.zip` .
+פתח את קובץ ה-zip שניתן למצוא כאן: `plugins/CosmeticsCore/default_assets.zip` .
 
-Copy the content of `CosmeticsCore_configurations` into your `CosmeticsCore` plugin folder.
+העתק את התוכן של `CosmeticsCore_configurations` לתיקיית הפלאגין `CosmeticsCore` שלך.
 
-Reload the plugin using `/cosmeticsconfig cosmetics reload` .
+טען מחדש את התוסף באמצעות `/cosmeticsconfig cosmetics reload` .
 
-## Removing the default cosmetics
+## הסרת ברירת המחדל של מוצרי הקוסמטיקה
 
-If you don't need the default cosmetics and you only need the UI you have to delete this folder from your pack: `assets/cosmetics/`
+אם אתה לא צריך את ברירת המחדל של מוצרי הקוסמטיקה ואתה צריך רק את ממשק המשתמש, עליך למחוק את התיקיה הזו מהחבילה שלך: `asses/cosmetics/`
 
 {% hint style="warning" %}
-### Important: do not delete `assets/z_cosmetics/`
+### חשוב: לא למחוק `assets/z_cosmetics/`
 {% endhint %}

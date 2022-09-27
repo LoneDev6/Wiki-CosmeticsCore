@@ -1,26 +1,26 @@
-# Terms of service
+# ⛔ תנאי השירות
 
-## Plugin compatibility
+## תאימות פלאגינים
 
-* This plugin requires mid-level knowledge of resourcepacks creation. It's not suitable for newbies and for users who don't know how to make 3D models, manage resourcepacks, create textures and so on.
-* This plugin might not work on every environment because of the high level of packets usage it makes use of. It might cause issues with plugins which are checking players passengers.
-* The plugin is not guaranteed to work on every server type, on custom Spigot forks and on particular servers setups.
+* פלאגין זה דורש ידע ברמה בינונית ביצירת חבילות משאבים. זה לא מתאים למתחילים ולמשתמשים שלא יודעים לעשות מודלים תלת מימדיים, לנהל ערכות משאבים, ליצור טקסטורות וכן הלאה.
+* ייתכן שהפלאגין הזה לא יעבוד בכל סביבה בגלל הרמה הגבוהה של השימוש בחבילות שהוא עושה בהן שימוש. זה עלול לגרום לבעיות עם פלאגינים שבודקים נוסעים של שחקנים.
+*לא מובטח שהתוסף יעבוד על כל סוג שרת, על מזלגות Spigot מותאמים אישית ועל הגדרות שרתים מסוימות.
 
-## Support requests
+## בקשות תמיכה
 
-### Bug reports
+### דיווחי באגים
 
-Every bug must be reported on Github, do not use Discord, private messages or social networks to report issues.
+יש לדווח על כל באג ב- Github, אל תשתמש בדיסקורד, בהודעות פרטיות או ברשתות חברתיות כדי לדווח על בעיות.
 
-### Support requests
+### בקשות תמיכה
 
-Configuration help requests must be sent on the community channels of the Discord server by creating a thread or asking on the community help channel.
+יש לשלוח בקשות עזרה לתצורה בחדר הקהילה של שרת הדיסקורד על ידי יצירת טרנד או בקשה בחדר העזרה של הקהילה.
 
-Do not contact the plugin developer to ask for private help. This statement is necessary because of the high amount of members the community has, it's impossible for a single developer to handle all these requests.
+אל תיצור קשר עם מפתח הפלאגין כדי לבקש עזרה פרטית. הצהרה זו נחוצה בגלל כמות האנשים הגבוהה שיש לקהילה, זה בלתי אפשרי שמפתח יחיד יטפל בכל הבקשות הללו.
 
-## Redistributing
+## הפצה מחדש
 
-* It's forbidden to share the product JAR file online for free or resell your software copy.\
-  Only the developer of the plugin can share the product.
-* It's forbidden to decompile the plugin and copy code from it.
-* It's forbidden to open false payment disputes. Any false dispute will be reported to the payment service.
+* אסור לשתף את קובץ ה-JAR של המוצר באינטרנט בחינם או למכור מחדש את עותק התוכנה שלך.\
+  רק מפתח התוסף יכול לשתף את המוצר.
+* אסור לבצע דה-קומפילציה של הפלאגין ולהעתיק ממנו קוד.
+* אסור לפתוח סכסוכי תשלום. כל מחלוקת כזו תדווח לשירות התשלומים.
