@@ -1,10 +1,10 @@
 # API
 
 {% hint style="warning" %}
-This API is currently under development and can change during time
+ממשק API זה נמצא כעת בפיתוח ויכול להשתנות עם הזמן
 {% endhint %}
 
-The API is under this package:&#x20;
+ה-API נמצא תחת החבילה הזו:
 
 ```
 dev.lone.cosmeticscore.api.temporary
