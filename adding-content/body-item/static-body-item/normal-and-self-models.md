@@ -129,7 +129,7 @@ For example if the scale value was `1.3` you have to set it to `2.6`.
 
 <div>
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
  
 
