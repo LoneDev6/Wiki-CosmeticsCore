@@ -21,6 +21,8 @@
 * [✏ לתרום](contribute/README.md)
   * [ערוך את הוויקי האנגלית](contribute/edit-the-english-wiki.md)
   * [תרגם את הוויקי הזה](contribute/translate-this-wiki.md)
+  * [תצוגה מקדימה של שינויים בוויקי](contribute/preview-wiki-changes.md)
+
 
 ## 💻 מפתחים
 
