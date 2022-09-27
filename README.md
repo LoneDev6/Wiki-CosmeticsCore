@@ -22,3 +22,9 @@
 {% embed url="https://github.com/The-Gust" %}
 
 {% embed url="https://www.spigotmc.org/members/the_gust.1117674/" %}
+
+### YaliGaming
+
+תרגם את הוויקי
+
+{% embed url="https://github.com/YaliGaming" %}
