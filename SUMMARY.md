@@ -7,7 +7,8 @@
 * [❓ Frequently asked questions](frequently-asked-questions.md)
 * [🇬🇧 Translations](translations.md)
 * [🖥 Commands](commands.md)
-* [👌 Permissions](permissions.md)
+* [👌 Permissions](permissions/README.md)
+  * [Examples](permissions/examples.md)
 * [🎨 Adding content](adding-content/README.md)
   * [🧢 Hat](adding-content/hat.md)
   * [🎒 Body Item](adding-content/body-item/README.md)
@@ -22,6 +23,9 @@
   * [Edit the English wiki](contribute/edit-the-english-wiki.md)
   * [Translate this wiki](contribute/translate-this-wiki.md)
   * [Preview wiki changes](contribute/preview-wiki-changes.md)
+* [✅ Compatibility with other plugins](compatibility-with-other-plugins/README.md)
+  * [Compatible](compatibility-with-other-plugins/compatible/README.md)
+    * [Vulcan](compatibility-with-other-plugins/compatible/vulcan.md)
 
 ## 💻 Developers
 
