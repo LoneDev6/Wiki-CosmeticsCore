@@ -1,7 +1,7 @@
 # 🎈 בלון
 
 {% hint style="warning" %}
-### בלונים דורשים את ItemsAdder כדי לעבוד.
+#### בלונים דורשים את ItemsAdder כדי לעבוד.
 {% endhint %}
 
 ## יצירת בלון
@@ -30,17 +30,18 @@
     dye:
       enabled: true
 ```
+
 כפי שאתה יכול לראות, הגדרתי את המודל ה'רגיל' לשם של **הישות המותאמת אישית** שנוצרה עם ItemsAdder.
 
 ### שלב 3
 
 אתה סיימת
 
-![](<../.gitbook/assets/image (8) (1).png>)
+![](../.gitbook/assets/image%20\(8\)%20\(1\).png)
 
 ## הערות אחרונות
 
 {% hint style="info" %}
 אתה יכול אפילו ליצור בלונים מונפשים, פשוט הנפשה את הנפשה סרק של הישות באמצעות Blockbench.\
-לדוגמה אתה יכול ליצור דרקון מורכב או עב"ם מסתובב. &#x20;
+לדוגמה אתה יכול ליצור דרקון מורכב או עב"ם מסתובב.
 {% endhint %}

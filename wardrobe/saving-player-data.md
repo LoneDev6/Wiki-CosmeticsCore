@@ -1,4 +1,4 @@
-# 💾 שמירת נתוני שחקן
+# שמירת נתוני שחקן
 
 ## תצורה
 
@@ -13,7 +13,6 @@ save:
     username: "username"
     password: "password"
     table: "cosmeticscore_saved"
-
 ```
 
 ## קובץ

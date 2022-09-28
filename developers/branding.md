@@ -5,11 +5,9 @@
 קובץ ה-ZIP להלן מכיל נכסים שתוכל להשתמש בהם עבור דף המשאבים שלך או בנכסים שלך הקשורים ל-CosmeticsCore.\
 הקפד לקרוא את [תנאי השימוש](branding.md#usage-terms) לפני שתעשה משהו.
 
-{% file src="../.gitbook/assets/cc-branding.zip" %}
-
 ### תצוגה מקדימה של תוכן ה-zip
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/cosmeticscore_addon-banner.png" alt=""><figcaption></figcaption></figure>
 

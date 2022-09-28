@@ -17,8 +17,6 @@
 * `ItemsAdder_configurations` -> מכיל את תצורות (היצורים) הבלונים **ItemsAdder**
 * `CosmeticsCore_configurations` -> מכיל את תצורת ברירת המחדל של מוצרי קוסמטיקה **CosmeticsCore**
 
-
-
 ## התקנת חבילת המשאבים <mark style="color:orange;">אם כבר יש לך חבילת משאבים מותאמת אישית</mark>
 
 {% hint style="warning" %}
@@ -29,7 +27,7 @@
 
 ### שלב 1
 
-להעתיק `assets/z_cosmetics` ו `assets/cosmetics` תיקייה לתוך חבילת המשאבים שלך.&#x20;
+להעתיק `assets/z_cosmetics` ו `assets/cosmetics` תיקייה לתוך חבילת המשאבים שלך.
 
 <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
@@ -43,8 +41,7 @@
 
 פתח את אותו נתיב קובץ קודם בחבילת המשאבים **שלך** (`fermented_spider_eye.json`).
 
-הערה: אם אין לך את הקובץ הזה בחבילת המשאבים שלך דלג על שלב זה ופשוט העתק והדבק את הקובץ `fermented_spider_eye.json` בתוך ערכת המשאבים שלך לנתיב זה`assets/minecraft/models/item/fermented_spider_eye.json` .\
-
+הערה: אם אין לך את הקובץ הזה בחבילת המשאבים שלך דלג על שלב זה ופשוט העתק והדבק את הקובץ `fermented_spider_eye.json` בתוך ערכת המשאבים שלך לנתיב זה`assets/minecraft/models/item/fermented_spider_eye.json` .\\
 
 השתמש בכלי זה כדי למזג את הקובץ **CosmeticsCore** והקובץ שלך:
 
@@ -92,5 +89,5 @@
 אם אתה לא צריך את ברירת המחדל של מוצרי הקוסמטיקה ואתה צריך רק את ממשק המשתמש, עליך למחוק את התיקיה הזו מהחבילה שלך: `asses/cosmetics/`
 
 {% hint style="warning" %}
-### חשוב: לא למחוק `assets/z_cosmetics/`
+#### חשוב: לא למחוק `assets/z_cosmetics/`
 {% endhint %}
