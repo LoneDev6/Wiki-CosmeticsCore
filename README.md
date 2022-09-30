@@ -28,3 +28,5 @@
 תרגם את הוויקי
 
 {% embed url="https://github.com/YaliGaming" %}
+
+{% embed url="https://www.spigotmc.org/members/yaligaming.1585702/" %}
