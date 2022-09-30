@@ -37,14 +37,14 @@ You can do the same thing but with ItemsAdder items models and avoid worrying ab
 Example:
 
 ```yaml
-  # Example manually created hat with CustomModelData
+  # Example custom Item created by ItemsAdder
   squirrel_tail:
     display_name: "Squirrel Tail"
     type: BODY_ITEM
     model:
-      gui: squirrel_tail
-      normal: squirrel_tail
-      self: squirrel_tail_self
+      gui: my_item:squirrel_tail
+      normal: my_item:squirrel_tail
+      self: my_item:squirrel_tail_self
     dye:
       enabled: false
 ```
