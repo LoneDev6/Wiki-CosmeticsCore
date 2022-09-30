@@ -19,7 +19,12 @@ You can create custom hats simply by using CustomModelData.
 In this example I created a custom hat with CustomModelData `300003`.\
 I decided to use the same item both for the GUI preview and for the actual item which will be put on player's head.&#x20;
 
-I set `dyeable: false` to avoid this item from being colored.
+I set the `dye.enabled` option to `false` to avoid this item from being colored.
+
+```yaml
+    dye:
+      enabled: false
+```
 
 ## ItemsAdder model
 
@@ -42,4 +47,9 @@ Example:
 In this example you can see I used `my_items:cowboy_hat_icon` as icon `my_items:cowboy_hat` as item.\
 They both are items from ItemsAdder.
 
-I set `dyeable: false` to avoid this item from being colored.
+I set the `dye.enabled` option to `false` to avoid this item from being colored.
+
+```yaml
+    dye:
+      enabled: false
+```
