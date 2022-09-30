@@ -18,6 +18,11 @@ It's important to have two separated models because the self model will avoid ge
 {% endtab %}
 {% endtabs %}
 
+{% hint style="warning" %}
+If you are not interested into setting a `self` and `normal` model you can skip this tutorial and only use the `normal` attribute\
+Do not set the `self` attribute at all if you don't want to use a different item for the self view.
+{% endhint %}
+
 ### Normal model
 
 A normal model is the model which is shown to every player but the local player (yourself).
