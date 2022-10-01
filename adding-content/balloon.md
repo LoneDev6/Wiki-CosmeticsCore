@@ -28,7 +28,7 @@ Create the cosmetic configuration
       gui: minecraft:egg
       normal: cosmetics:star_kite
     dye:
-      enabled: true
+      enabled: true # To allow this item from being colored.
 ```
 
 As you can see I set the `normal` model to the name of the **custom entity** created with ItemsAdder.
