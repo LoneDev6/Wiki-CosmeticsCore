@@ -24,7 +24,7 @@ Create the cosmetic configuration
       gui: dragon_head
       normal: cosmetics:wings_enderdragon
     dye:
-      enabled: false
+      enabled: false # To avoid this item from being colored.
 ```
 
 As you can see I set the `normal` model to the name of the **custom entity** created with ItemsAdder.

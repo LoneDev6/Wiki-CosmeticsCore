@@ -68,9 +68,9 @@ Edit your cosmetics configuration and add the **self** model.
     model:
       gui: potion:400008
       normal: potion:400008
-      self: potion:400009   ### <------ HERE
+      self: potion:400009   # <------ HERE
     dye:
-      enabled: false
+      enabled: false # To avoid this item from being colored.
 ```
 
 ### Step 4
