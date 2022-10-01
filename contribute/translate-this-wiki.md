@@ -15,7 +15,7 @@ Then, after the branch creation, open the [**Github** repository](https://github
 
 Untick this option!
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 Click here to change the branch.
 
@@ -60,5 +60,5 @@ Feel free to ping **LoneDev** on the Discord or to open a support ticket in the 
 Would be good if you update your translation each time the main repository (the one in English) gets edited, to reflect changes.\
 You can keep track of changes in the Discord notification channel.
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (1).png>)
 {% endhint %}

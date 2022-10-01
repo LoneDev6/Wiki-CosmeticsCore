@@ -14,7 +14,7 @@ Make sure you're on the `master` branch.
 
 Select a file you want to edit and press the **pen** button
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 Edit the file and then press <mark style="color:green;">**Commit changes**</mark>
 

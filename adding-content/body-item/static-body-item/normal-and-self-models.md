@@ -82,6 +82,16 @@ This requires you to check ingame a few times until the model is correctly posit
 
 {% embed url="https://youtu.be/dmQI35Xd4Js" %}
 
+### Experimental new method
+
+You can now use a new method which involves a Blockbench extension to make things easier and automated.
+
+Read here:
+
+{% content-ref url="../../../files-editor.md" %}
+[files-editor.md](../../../files-editor.md)
+{% endcontent-ref %}
+
 ## Differences
 
 ### Normal model

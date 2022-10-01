@@ -6,6 +6,7 @@
 * [⛔ Terms of service](terms-of-service.md)
 * [❓ Frequently asked questions](frequently-asked-questions.md)
 * [🇬🇧 Translations](translations.md)
+* [Files editor](files-editor.md)
 * [🖥 Commands](commands.md)
 * [👌 Permissions](permissions/README.md)
   * [Examples](permissions/examples.md)
