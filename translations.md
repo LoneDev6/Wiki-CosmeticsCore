@@ -1,3 +1,3 @@
-# 🇬🇧 Translations
+# 🇬🇧 Übersetzungen
 
-You can translate the plugin by creating a new file in the `lang` folder and set it in the `config.yml` file.
+Du kannst das Plugin übersetzen, indem du eine neue Datei in dem `lang` Ordner erstellst und sie in der `config.yml` einträgst.
