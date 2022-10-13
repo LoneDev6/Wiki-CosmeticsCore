@@ -1,33 +1,33 @@
 # ❓ Frequently asked questions
 
-## Successfully introduce cosmetics in your server
+## Erfolgreich Cosmetics in deinen Server einführen
 
 {% hint style="info" %}
-1. You must not make them easy to obtain. Make them a rare perk for donors or special events prizes (example: seasonal quests, boss battle prizes, staff members exclusive, donors exclusive)
-2. Always make sure to publish a new cosmetic when you are 100% sure you want to keep it forever in your server. People don't like to buy cosmetics and see them removed after some time.
-3. Make unique cosmetics, don't make useless variations of the same cosmetic design.
+1. Sie dürfen nicht einfach zu bekommen sein. Mache sie zu einem seltenen Vorteil für Spender oder zu Preisen bei besonderen Events. (Beispiel: saisonale Quests, Boss-Kampf-Preise, Teammitglieder-Exklusiv, Spender-Exklusiv)
+2. Stelle außerdem sicher, dass du ein Cosmetic nur hinzufügst, wenn du dir zu 100% sicher bist, dass du es für immer auf deinem Server behalten möchtest. Spieler haben keine Lust darauf sich Cosmetics zu kaufen, nur damit sie irgendwann wieder entfernt werden.
+3. Erstelle einzigartige Cosmetics und nicht unnötige Variationen von einem einzigen Design.
 {% endhint %}
 
-## Offhand cosmetics (left hand)
+## Offhand-Cosmetics (Linke Hand)
 
-Why aren't offhand cosmetics available in this plugin?
+Warum bietet dieses Plugin keine Möglichkeit, Offhand-Cosmetics hinzuzufügen?
 
-The reason is that offhand is a slot heavily used in the Minecraft gameplay to hold important items, for example shield, totems and other items.\
-Using the offhand to place cosmetics would mean that the user won't really know which is the original item under the cosmetic, this would cause extreme confusion between players.
+Die Offhand ist ein Slot, welcher oft verwendet wird und stark in das Gameplay von Minecraft integriert ist, um wichtige Items, beispielsweise Schilde, Totems oder andere Items zu halten.\
+Wenn die Offhand verwendet wird, um Cosmetics dort hineinzulegen, wissen die Spieler nicht, welches Item sich wirklich in der Offhand befindet, was zu extremer Verwirrung unter dem Spielern führen wird.
 
-Imagine a player getting shot with a bow by another player who is apparently holding a cosmetic flower. In reality they are holding a bow.
+Stelle dir einen Spieler vor, welcher von einem anderen Spieler mit einer Cosmetic-Blume abgeschossen wird. In Wirklichkeit hält er einen Bogen.
 
-Imagine a player during PVP, they won't know if they still have their shield or not in offhand.
+Stelle dir einen Spieler, welche gerade gegen einen anderen Kämpft. Er weiß nicht ob er immernoch sein Schild in der Offhand liegen hat.
 
-Imagine a player which can't know if they still have their totem in offhand.
+Stelle dir einen Spieler vor, welcher nicht weiß ob er immernoch ein Totem in der Offhand hat.
 
 You may think: "you just need to open inventory and check".\
 Imagine how annoying would be to have to open the inventory each 5 seconds in order to check durability of the shield in offhand.
 
-## Multiple hats cosmetics
+## Mehrere Hüte
 
-You cannot have more than 1 hat cosmetics equipped at the same time.
+Du kannst nicht mehr als einen Hut gleichzeitig anziehen.
 
-The hat cosmetic uses the helmet slot of your player, you cannot have more than 1 item at the same time in this slot, it's a limitation of the game.
+Das liegt daran, dass Hüte den Helm-Slot in deinem Inventar verwendet und in diesen lediglich ein Item gelegt werden kann.
 
-There is no way to bypass this limitation.
+Diese Limitation des Spiels kann man nicht umgehen.
