@@ -1,37 +1,37 @@
 # 🖥 Commands
 
-### Open the wardrobe
+### Den Spind öffnen
 
 `/wardrobe`
 
-Permission: `cosmeticscore.user.command.wardrobe`
+Berechtigung: `cosmeticscore.user.command.wardrobe`
 
-### Reload config.yml
+### Config.yml neuladen
 
 `/cosmeticsconfig config reload`
 
-Permission: `cosmeticscore.admin.command.cosmeticsconfig`
+Berechtigung: `cosmeticscore.admin.command.cosmeticsconfig`
 
-### Reload cosmetics
+### Cosmetics neuladen
 
 `/cosmeticsconfig cosmetics reload`
 
-Permission: `cosmeticscore.admin.command.cosmeticsconfig`
+Berechtigung: `cosmeticscore.admin.command.cosmeticsconfig`
 
-### Force wear cosmetic
+### Cosmetic erzwingen
 
 `/cosmetics <player> add <name> [silent|not-silent]`
 
-Permission: `cosmeticscore.admin.command.cosmetics`
+Berechtigung: `cosmeticscore.admin.command.cosmetics`
 
-### Force un-wear cosmetic
+### Ablegen von Cosmetic erzwingen
 
 `/cosmetics <player> remove <name> [silent|not-silent]`
 
-Permission: `cosmeticscore.admin.command.cosmetics`
+Berechtigung: `cosmeticscore.admin.command.cosmetics`
 
-### Force un-wear all cosmetics
+### Ablegen von allen Cosmetics erzwingen
 
 `/cosmetics <player> remove-all [silent|not-silent]`
 
-Permission: `cosmeticscore.admin.command.cosmetics`
+Berechtigung: `cosmeticscore.admin.command.cosmetics`
