@@ -1,6 +1,6 @@
 # 👌 Berechtigungen
 
-## Command-Berechtigungen
+## Befehls-Berechtigungen
 
 {% content-ref url="commands.md" %}
 [commands.md](commands.md)
