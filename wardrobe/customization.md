@@ -1,6 +1,6 @@
-# ⚙ Customization
+# ⚙ Anpassungen
 
-## Configuration
+## Konfiguration
 
 <details>
 
@@ -54,42 +54,42 @@ wardrobe_room:
 
 </details>
 
-## Locations
+## Standorte
 
-You have to set the world and its coordinates, you can also set the yaw and pitch rotations.\
-To get these values just use `/coords` command of **Essentials** or use `F3`.
+Du musst die Welt und die Koordinaten festlegen und kannst ebenfalls die Gier- und Nickdrehungen einstellen.\
+Um diese Werte zu erhalten, verwende einfach den `/coords` Command von dem Plugin **Essentials** oder Nutze die `F3` Taste.
 
-### Camera location
+### Kamera-Standort
 
-Command: `/cosmeticsconfig config set camera-location`
+Befehl: `/cosmeticsconfig config set camera-location`
 
 ![](<../.gitbook/assets/image (2) (1).png>)
 
-### Mannequin location
+### Preview-NPC Standort
 
-Command: `/cosmeticsconfig config set mannequin-location`
+Befehl: `/cosmeticsconfig config set mannequin-location`
 
-Location of the player to preview the cosmetics in the wardrobe.
+Standort des Ebenbilds des Spielers, um die Cosmetics anzuprobieren.
 
 ![](<../.gitbook/assets/image (12).png>) ![](<../.gitbook/assets/image (7).png>)
 
-### Teleport area
+### Teleport-Bereich
 
-This is a bit different, you have to set two points which represent the area in which the player can enter to open the wardrobe.
+Das ist etwas anders als die vorherigen Punkte. Man muss zwei Punkte setzen, die den Bereich darstellen, in den der Spieler eintreten kann, um den Kleiderschrank zu öffnen.
 
-Command: `/cosmeticsconfig config set door-area-locations`
+Befehl: `/cosmeticsconfig config set door-area-locations`
 
 ![](<../.gitbook/assets/image (13).png>)
 
-### Exit location
+### Ausgangsort
 
-Command: `/cosmeticsconfig config set exit-location`
+Befehl: `/cosmeticsconfig config set exit-location`
 
-Location where the player will be teleported back when they leave the wardrobe.
+Ort, an den die Spieler zurückteleportiert werden, wenn sie den Spind verlassen.
 
 ![](<../.gitbook/assets/image (22).png>)
 
-## Other camera settings
+## Andere Kameraeinstellungen
 
 {% code title="" %}
 ```yaml
@@ -103,11 +103,11 @@ Location where the player will be teleported back when they leave the wardrobe.
 ```
 {% endcode %}
 
-* **Rotation**: Set if you want players to be able to rotate the preview
-* **Zoom**: Set if you want to enable zoom
-* **Fade Effect**: Set if you want to enable the black screen fade animation on enter-exit the wardrobe.
+* **Rotation**: Lege fest, ob Spieler den NPC drehen können
+* **Zoom**: Lege fest, ob Spieler zoomen können
+* **Fade Effect**: Lege fest, ob die Blackscreen-Fade-Animation beim Betreten und Verlassen des Spinds abgespielt werden soll
 
-## Graphics customization
+## Grafikeinstellungen
 
 ```yaml
     slots:
@@ -120,18 +120,18 @@ Location where the player will be teleported back when they leave the wardrobe.
 ```
 
 {% hint style="warning" %}
-### Warning
+### Warnung
 
-Colors must be int RGB colors separated with a comma, you can get them from any color picker.\
-HEX and integer colors are not supported for now.
+Farben müssen in ganzzahligen RGB-Farben sein, die durch ein Komma getrennt sind, man kann sie in jedem Farbwähler anzeigen lassen.\
+HEX- und Integer-Farben werden derzeit nicht unterstützt.
 {% endhint %}
 
-These properties are used to set colors of the slots in the wardrobe GUI.
+Diese Einstellungen werden verwendet, um die Farben der Slots in der Garderoben-GUI festzulegen.
 
 ![](<../.gitbook/assets/image (18) (1).png>)
 
-* **Not owned**: color of the cosmetics not owned (no permission)
-* **Owned**: color of the cosmetics owned (with permission)
-* **Wearing**: color of the cosmetics currently equipped
-* **Wearing** preview: color of the cosmetics currently equipped but not owned (no permission), equipped only as preview&#x20;
-* **Max amount reached**: color of all the other cosmetics which cannot be equipped because the player is already wearing the max amount for that category&#x20;
+* **Not owned**: Farbe der Cosmetics, welche man nicht besitzt (keine Berechtigung)
+* **Owned**: Farbe der Cosmetics, welche man besitzt (mit Berechtigung)
+* **Wearing**: Farbe der Cosmetics, welche man ausgerüstet hat
+* **Wearing** Vorschau: Farbe der Cosmetics, welche gerade ausgerüstet sind, aber sich nicht im Besitz befinden (keine Berechtigung), nur als Vorschau ausgerüstet&#x20;
+* **Max amount reached**: Farbe der Cosmetics, welche nicht angezogen werden können, da die maximale Anzahl der Cosmetics in dieser Kategorie schon erreicht ist&#x20;
