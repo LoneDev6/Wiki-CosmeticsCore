@@ -1,26 +1,26 @@
-# ⛔ Terms of service
+# ⛔ Nutzungsbedingungen
 
-## Plugin compatibility
+## Plugin-Kompatiblität
 
-* This plugin requires mid-level knowledge of resourcepacks creation. It's not suitable for newbies and for users who don't know how to make 3D models, manage resourcepacks, create textures and so on.
+* Dieses Plugin benötigt mittleres Wissen in der Erstellung von Resourcen-Paketen. Es ist nicht für Anfänger oder Nutzer welche keine 3D-Modelle erstellen, Resourcen-Pakete managen oder Texturen erstellen können.
 * This plugin might not work on every environment because of the high level of packets usage it makes use of. It might cause issues with plugins which are checking players passengers.
 * The plugin is not guaranteed to work on every server type, on custom Spigot forks and on particular servers setups.
 
-## Support requests
+## Support-Anfragen
 
-### Bug reports
+### Einen Bug melden
 
-Every bug must be reported on Github, do not use Discord, private messages or social networks to report issues.
+Jeder Bug muss auf Github gemeldet werden. Benutze kein Discord, Privat-Nachrichten oder Soziale Netzwerke um Fehler zu melden.
 
-### Support requests
+### Support erhalten
 
-Configuration help requests must be sent on the community channels of the Discord server by creating a thread or asking on the community help channel.
+Fragen zur Hilfe bei der Konfiguration müssen in die Community-Kanäle im Discord-Server geschrieben werden, indem ein Thread erstellt oder im Community-Hilfekanal nachgefragt wird.
 
-Do not contact the plugin developer to ask for private help. This statement is necessary because of the high amount of members the community has, it's impossible for a single developer to handle all these requests.
+Kontaktiere nicht den Plugin-Entwickler um für private Hilfe zu fragen. Diese Anweisung ist aufgrund der hohen Mitgliederzahl der Community erforderlich, es ist unmöglich, dass ein einzelner Entwickler alle diese Anfragen bearbeitet.
 
-## Redistributing
+## Weiterverteilen
 
-* It's forbidden to share the product JAR file online for free or resell your software copy.\
-  Only the developer of the plugin can share the product.
-* It's forbidden to decompile the plugin and copy code from it.
-* It's forbidden to open false payment disputes. Any false dispute will be reported to the payment service.
+* Es ist verboten, die JAR-Datei des Produktes kostenlos im Internet zu verteilen oder die Softwarekopie weiterzuverkaufen.\
+  Der Entwickler ist als einzige Person dazu berechtigt, das Plugin weiterzuverbreiten.
+* Es ist verboten, das Plugin zu dekompilieren und Code davon zu kopieren.
+* Es ist verboten, falsche Zahlungsstreitigkeiten zu eröffnen. Jeder falsche Streit wird dem Zahlungsdienst gemeldet.
