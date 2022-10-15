@@ -1,26 +1,24 @@
-# Terms of service
+# Hizmet şartları
 
-## Plugin compatibility
+## Eklenti uyumluluğu
 
-* This plugin requires mid-level knowledge of resourcepacks creation. It's not suitable for newbies and for users who don't know how to make 3D models, manage resourcepacks, create textures and so on.
-* This plugin might not work on every environment because of the high level of packets usage it makes use of. It might cause issues with plugins which are checking players passengers.
-* The plugin is not guaranteed to work on every server type, on custom Spigot forks and on particular servers setups.
+* Bu eklenti, kaynak paketi oluşturmada orta düzeyde bilgi gerektirmektedir. Yeni başlayanlar, 3B model yapmayı, kaynak paketi olulşturmayı, doku oluşturmayı vb. bilmeyenlere uygun değildir.
+* Bu eklenti, yüksek düzeyde paket kullanımı nedeniyle her ortamda çalışmayabilir. Oyuncuları kontrol eden eklentilerde sorunlara neden olabilir.
+* Eklentinin her sunucu türünde, özel Spigot çatallarında ve belirli sunucu kurulumlarında çalışması garanti edilmez.
 
-## Support requests
+### Hata Bildirimi
 
-### Bug reports
+Hatalar Github üzerinden bildirilmelidir, sorunları bildirmek için Discord, özel mesajlar veya sosyal ağları kullanmayın.
 
-Every bug must be reported on Github, do not use Discord, private messages or social networks to report issues.
+### Destek Talepleri
 
-### Support requests
+Yardım talepleri Discord sunucusunun topluluk kısmında bir konu oluşturularak veya topluluk yardım kanalında sorularak gönderilmelidir.
 
-Configuration help requests must be sent on the community channels of the Discord server by creating a thread or asking on the community help channel.
-
-Do not contact the plugin developer to ask for private help. This statement is necessary because of the high amount of members the community has, it's impossible for a single developer to handle all these requests.
+Özel yardım istemek için eklenti geliştiricisiyle iletişime geçmeyin. Bu açıklama, topluluğun sahip olduğu yüksek üye sayısı nedeniyle gereklidir, tek bir geliştiricinin tüm bu taleplerle ilgilenmesi imkansız.
 
 ## Redistributing
 
-* It's forbidden to share the product JAR file online for free or resell your software copy.\
-  Only the developer of the plugin can share the product.
-* It's forbidden to decompile the plugin and copy code from it.
-* It's forbidden to open false payment disputes. Any false dispute will be reported to the payment service.
+* Ürün JAR dosyasını çevrimiçi olarak ücretsiz paylaşmak veya yazılım kopyanızı yeniden satmak yasaktır.\
+  Sadece eklentinin geliştiricisi bu eklentiyi paylaşabilir.
+* Eklentiyi decompile edip (derlemeyi çözmek) içinden kod kopyalamak yasaktır.
+* Sahte ödeme problemi talebi açmak yasaktır. Herhangi bir kötüye kullanım ödeme servisine bildirilecektir.
