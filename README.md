@@ -1,4 +1,4 @@
-# 👋 Welcome
+# 👋 Hoş Geldin
 
 * [Patreon](http://patreon.com/lonedev)
 * [YouTube](http://youtube.com/lonedev)
@@ -7,17 +7,17 @@
 * [Steam developer page](https://store.steampowered.com/developer/LoneDev/)
 * [Discord](https://discord.gg/4dfnpUK)
 
-## Thanks to some awesome friends
+## Proejeye katkıda bulunanarkadaşlara teşekkürler
 
 ### Cha\_Shao
 
-Helped me a lot with the graphics assets of the plugin and beta testing.
+Eklentinin grafikleri ve beta testinde bana çok yardımcı oldu
 
 {% embed url="https://github.com/Cha-Shao" %}
 
 ### The\_Gust
 
-Helped with beta testing
+Beta testinde yardımcı oldu
 
 {% embed url="https://github.com/The-Gust" %}
 
