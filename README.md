@@ -7,7 +7,7 @@
 * [Steam developer page](https://store.steampowered.com/developer/LoneDev/)
 * [Discord](https://discord.gg/4dfnpUK)
 
-## Proejeye katkıda bulunanarkadaşlara teşekkürler
+## Projeye katkıda bulunan arkadaşlara teşekkürler
 
 ### Cha\_Shao
 
