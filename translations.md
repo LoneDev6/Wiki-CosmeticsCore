@@ -1,3 +1,3 @@
-# 🇬🇧 Translations
+# 🇬🇧 Çeviri
 
-You can translate the plugin by creating a new file in the `lang` folder and set it in the `config.yml` file.
+Eklentiyi `lang` dizinine yeni bir dosya oluşturup, `config.yml` üzerinden düzenleyerek dilinize çevirebilirsiniz.
