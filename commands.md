@@ -1,37 +1,37 @@
-# 🖥 Commands
+# 🖥 Komutlar
 
-### Open the wardrobe
+### Gardrobu açar
 
 `/wardrobe`
 
-Permission: `cosmeticscore.user.command.wardrobe`
+Yetki: `cosmeticscore.user.command.wardrobe`
 
-### Reload config.yml
+### config.yml' dosyasını tekrardan yükle
 
 `/cosmeticsconfig config reload`
 
-Permission: `cosmeticscore.admin.command.cosmeticsconfig`
+Yetki: `cosmeticscore.admin.command.cosmeticsconfig`
 
-### Reload cosmetics
+### Kozmetikleri tekrardan yükle
 
 `/cosmeticsconfig cosmetics reload`
 
-Permission: `cosmeticscore.admin.command.cosmeticsconfig`
+Yetki: `cosmeticscore.admin.command.cosmeticsconfig`
 
-### Force wear cosmetic
+### Kozmetik giymeye zorla
 
 `/cosmetics <player> add <name> [silent|not-silent]`
 
-Permission: `cosmeticscore.admin.command.cosmetics`
+Yetki: `cosmeticscore.admin.command.cosmetics`
 
-### Force un-wear cosmetic
+### Kozmetikleri çıkarmaya zorla
 
 `/cosmetics <player> remove <name> [silent|not-silent]`
 
-Permission: `cosmeticscore.admin.command.cosmetics`
+Yetki: `cosmeticscore.admin.command.cosmetics`
 
-### Force un-wear all cosmetics
+### Tüm kozmetikleri çıkarmaya zorla
 
 `/cosmetics <player> remove-all [silent|not-silent]`
 
-Permission: `cosmeticscore.admin.command.cosmetics`
+Yetki: `cosmeticscore.admin.command.cosmetics`
