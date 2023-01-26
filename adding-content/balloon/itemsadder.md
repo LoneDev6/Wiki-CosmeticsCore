@@ -1,7 +1,7 @@
-# 🎈 Balloon
+# ItemsAdder
 
 {% hint style="warning" %}
-### Balloons require ItemsAdder to work.
+### This balloons type require ItemsAdder to work.
 {% endhint %}
 
 ## Creating a balloon
@@ -37,7 +37,7 @@ As you can see I set the `normal` model to the name of the **custom entity** cre
 
 You're done
 
-![](<../.gitbook/assets/image (8) (1).png>)
+![](<../../.gitbook/assets/image (8) (1).png>)
 
 ## Final notes
 

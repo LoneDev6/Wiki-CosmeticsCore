@@ -22,6 +22,6 @@ You have to setup the wardrobe location, preview location, enter/exit location a
 
 ### Step 3
 
-{% content-ref url="install-base-resourcepack.md" %}
-[install-base-resourcepack.md](install-base-resourcepack.md)
+{% content-ref url="install-base-resourcepack/" %}
+[install-base-resourcepack](install-base-resourcepack/)
 {% endcontent-ref %}
