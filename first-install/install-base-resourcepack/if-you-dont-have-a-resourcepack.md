@@ -27,6 +27,10 @@ For example you can use one of these free websites:
 
 Open the zip file which can be found here: `plugins/CosmeticsCore/default_assets.zip` .
 
-Copy the content of `CosmeticsCore_configurations` into your `CosmeticsCore` plugin folder.
+Copy the content of `plugins/` into your `plugins/` server folder.
+
+If you have ItemsAdder regenerate your pack using  `/iazip` .
+
+If you have ModelEngine regenerate the ModelEngine pack using  `/meg reload` and make sure to merge the new pack with yours.
 
 Reload the plugin using `/cosmeticsconfig cosmetics reload` .
