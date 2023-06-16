@@ -79,7 +79,11 @@ This is a bit different, you have to set two points which represent the area in 
 
 Command: `/cosmeticsconfig config set door-area-locations`
 
-![](<../.gitbook/assets/image (13).png>)
+<div align="center">
+
+<img src="../.gitbook/assets/image (13).png" alt="">
+
+</div>
 
 ### Exit location
 
@@ -125,6 +129,9 @@ Location where the player will be teleported back when they leave the wardrobe.
 Colors must be int RGB colors separated with a comma, you can get them from any color picker.\
 HEX and integer colors are not supported for now.
 {% endhint %}
+
+To generate these colors you can use any website which offers an **RGB color picker**.\
+For example [this one](https://www.rapidtables.com/web/color/RGB\_Color.html).
 
 These properties are used to set colors of the slots in the wardrobe GUI.
 
