@@ -8,7 +8,7 @@ You can use this generator to create small texts.
 
 {% embed url="https://lingojam.com/MinecraftSmallFont" %}
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Do not use UPPERCASE characters in this converter or you will get a glitched text.
