@@ -14,6 +14,7 @@
 * [👌 Permissions](permissions/README.md)
   * [Examples](permissions/examples.md)
 * [🎨 Adding content](adding-content/README.md)
+  * [Creating a model](adding-content/creating-a-model.md)
   * [🎈 Balloon](adding-content/balloon/README.md)
     * [ItemsAdder](adding-content/balloon/itemsadder.md)
     * [ModelEngine](adding-content/balloon/modelengine.md)
