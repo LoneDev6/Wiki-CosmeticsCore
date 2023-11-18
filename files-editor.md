@@ -1,4 +1,4 @@
-# Files editor
+# 📑 Files editor
 
 ## Blockbench extension
 
