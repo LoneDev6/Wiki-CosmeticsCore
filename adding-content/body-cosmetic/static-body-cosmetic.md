@@ -1,8 +1,30 @@
 # Static Body Cosmetic
 
+## Models meaning
+
+### Normal model
+
+A normal model is the model which is shown to every player but the local player (yourself).\
+This model is used only on Minecraft 1.20.1 and lower.
+
+### Normal model 2
+
+This normal model is the model which is shown to every player but the local player (yourself).\
+This model is used only on Minecraft 1.20.2 and greater.
+
+### Self model
+
+The model which is shown ONLY to the local player (yourself).\
+This self model is used only on Minecraft 1.20.1 and lower.
+
+### Self model 2
+
+The model which is shown ONLY to the local player (yourself).\
+This self model is used only on Minecraft 1.20.2 and greater.
+
 ## Creation methods
 
-### CustomModelData body item
+### CustomModelData
 
 You can create custom body items simply by using **CustomModelData**.
 
@@ -14,6 +36,7 @@ You can create custom body items simply by using **CustomModelData**.
     model:
       gui: potion:400008
       normal: potion:400008
+      normal_2: potion:410008
       self: potion:400009
     dye:
       enabled: false # To avoid this item from being colored.
@@ -23,7 +46,7 @@ In this example I created a custom body item with CustomModelData `400008`.\
 I decided to use the same item both for the GUI preview and for the actual item which will be put on player's body.\
 I then set a self model, which is the model shown only to the local player and not to the other players, in this case I set the CustomModelData to `400009`.&#x20;
 
-### ItemsAdder model
+### ItemsAdder
 
 Same thing but using **ItemsAdder** models to avoid worrying about **CustomModelData**.
 
@@ -69,20 +92,6 @@ Do not set the `self` attribute at all if you don't want to use a different item
 {% endtab %}
 {% endtabs %}
 
-### Normal model
-
-A normal model is the model which is shown to every player but the local player (yourself).
-
-### Self model
-
-The model which is shown ONLY to the local player (yourself).\
-This self model is used only on Minecraft 1.20.1 and lower.
-
-### Self model 2
-
-The model which is shown ONLY to the local player (yourself).\
-This self model is used only on Minecraft 1.20.2 and greater.
-
 ## Implementing the self models
 
 ### Step 1
@@ -97,6 +106,10 @@ In this example I use `400008` for the **normal** model and `400009` for the **s
 {
   "predicate": { "custom_model_data": 400008 },
   "model": "cosmetics:body/squirrel_tail"
+},
+{
+  "predicate": { "custom_model_data": 410008 },
+  "model": "cosmetics:body/squirrel_tail_normal_2"
 },
 {
   "predicate": { "custom_model_data": 400009 },
@@ -119,6 +132,7 @@ Edit your cosmetics configuration and add the **self** model.
     model:
       gui: potion:400008
       normal: potion:400008
+      normal_2: potion:410008
       self: potion:400009   # <------ HERE
       self_2: potion:410009   # <------ HERE
     dye:
