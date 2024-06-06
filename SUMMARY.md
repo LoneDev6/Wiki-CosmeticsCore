@@ -1,7 +1,7 @@
 # Table of contents
 
 * [👋 Welcome](README.md)
-* [⚙ First install](first-install/README.md)
+* [⚙️ First install](first-install/README.md)
   * [Install base resourcepack](first-install/install-base-resourcepack/README.md)
     * [If you don't have a resourcepack](first-install/install-base-resourcepack/if-you-dont-have-a-resourcepack.md)
     * [ItemsAdder](first-install/install-base-resourcepack/itemsadder.md)
@@ -10,7 +10,7 @@
 * [❓ Frequently asked questions](frequently-asked-questions.md)
 * [🇬🇧 Translations](translations.md)
 * [📑 Files editor](files-editor.md)
-* [🖥 Commands](commands.md)
+* [🖥️ Commands](commands.md)
 * [👌 Permissions](permissions/README.md)
   * [Examples](permissions/examples.md)
 * [🎨 Adding content](adding-content/README.md)
@@ -23,11 +23,11 @@
   * [🎒 Body Cosmetic](adding-content/body-cosmetic/README.md)
     * [Static Body Cosmetic](adding-content/body-cosmetic/static-body-cosmetic.md)
     * [Advanced Body Item](adding-content/body-cosmetic/advanced-body-item.md)
-* [⚙ Settings](settings.md)
+* [⚙️ Settings](settings.md)
 * [🚪 Wardrobe](wardrobe/README.md)
-  * [⚙ Customization](wardrobe/customization.md)
+  * [⚙️ Customization](wardrobe/customization.md)
   * [💾 Saving player data](wardrobe/saving-player-data.md)
-* [✏ Contribute](contribute/README.md)
+* [✏️ Contribute](contribute/README.md)
   * [Edit the English wiki](contribute/edit-the-english-wiki.md)
   * [Translate this wiki](contribute/translate-this-wiki.md)
   * [Preview wiki changes](contribute/preview-wiki-changes.md)
@@ -39,4 +39,4 @@
 ## 💻 Developers
 
 * [☕ Java API](developers/java-api.md)
-* [™ Branding](developers/branding.md)
+* [™️ Branding](developers/branding.md)

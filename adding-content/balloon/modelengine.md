@@ -21,6 +21,8 @@ Create the cosmetic configuration
   star_kite:
     display_name: "Star Kite"
     type: MEG_BALLOON_ENTITY
+    balloon:
+      leash: true
     # Showing a different item into the GUI 
     # (in this case it's a must because ModelEngine entities can't be put in GUIs)
     model:
