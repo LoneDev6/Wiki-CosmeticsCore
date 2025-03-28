@@ -6,7 +6,7 @@
 
 Open the [**Github** repository](https://github.com/LoneDev6/Wiki-CosmeticsCore) of this wiki, press on **`Fork`**.&#x20;
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Make sure you're on the `master` branch.
 

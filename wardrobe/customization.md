@@ -1,58 +1,4 @@
-# ⚙ Customization
-
-## Configuration
-
-<details>
-
-<summary>Config.yml</summary>
-
-{% code title="config.yml" %}
-```yaml
-wardrobe_room:
-  camera:
-    rotation:
-      enabled: true
-    zoom:
-      enabled: true
-      min: 2
-    fade_effect: true
-    location:
-      world: flat
-      x: 205
-      y: -58.5
-      z: 41
-      yaw: 359.85
-      pitch: 6.6
-  mannequin:
-    location:
-      world: flat
-      x: 204.5
-      y: -60
-      z: 45.5
-      yaw: 180
-      pitch: 0
-  teleport_area:
-    enter:
-      world: flat
-      pos1:
-        x: 167
-        y: -61
-        z: 42
-      pos2:
-        x: 167
-        y: -57
-        z: 37
-    exit_location:
-      world: flat
-      x: 164
-      y: -60
-      z: 40
-      yaw: 98
-      pitch: 10
-```
-{% endcode %}
-
-</details>
+# ⚙️ Customization
 
 ## Locations
 
@@ -63,7 +9,7 @@ To get these values just use `/coords` command of **Essentials** or use `F3`.
 
 Command: `/cosmeticsconfig config set camera-location`
 
-![](<../.gitbook/assets/image (2) (1) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (1) (1).png>)
 
 ### Mannequin location
 
@@ -79,11 +25,11 @@ This is a bit different, you have to set two points which represent the area in 
 
 Command: `/cosmeticsconfig config set door-area-locations`
 
-<div align="center">
+<div align="center"><img src="../.gitbook/assets/image (13).png" alt=""></div>
 
-<img src="../.gitbook/assets/image (13).png" alt="">
+#### For better precision
 
-</div>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Exit location
 
@@ -98,8 +44,17 @@ Location where the player will be teleported back when they leave the wardrobe.
 {% code title="" %}
 ```yaml
   camera:
+    hide_actionbar_texts: true
+    use_invisibility_potion: false
     rotation:
-      enabled: true
+      manual:
+        enabled: true
+        step: 20
+      auto:
+        enabled: true
+        direction: RIGHT
+        step: 1.5
+        pause_ticks_on_manual_rotation: 60
     zoom:
       enabled: true
       min: 2
@@ -107,20 +62,27 @@ Location where the player will be teleported back when they leave the wardrobe.
 ```
 {% endcode %}
 
-* **Rotation**: Set if you want players to be able to rotate the preview
-* **Zoom**: Set if you want to enable zoom
-* **Fade Effect**: Set if you want to enable the black screen fade animation on enter-exit the wardrobe.
+* `hide_actionbar_texts` : hide any actionbar message. Useful to hide HUDs created by ItemsAdder and similar plugins
+* `use_invisibility_potion`: add invisibility potion to the player when they join the wardrobe (should not be needed)
+* `rotation` : preview NPC rotation using the mouse wheel
+  * `manual`: rotate the NPC using the mouse wheel while the cursor is not on the NPC
+  * `auto`: automatically rotate the NPC
+    * `pause_ticks_on_manual_rotation`: duration of the auto rotation pause after mouse scroll
+* `zoom`: zoom using the mouse wheel, while the cursor is on the NPC&#x20;
+  * `min`: is the min zoom amount
+* `fade_effect`: black screen fade animation on enter-exit the wardrobe
 
 ## Graphics customization
 
 ```yaml
     slots:
       colors:
-        not_owned: 195,147,57
         owned: 56,67,100
+        not_owned: 195,147,57
         wearing: 57,70,195
         wearing_preview: 195,120,57
-        max_amount_reached: 111,111,111
+        max_amount_reached_owned: 24, 29, 43
+        max_amount_reached_not_owned: 64, 48, 17
 ```
 
 {% hint style="warning" %}
@@ -131,14 +93,14 @@ HEX and integer colors are not supported for now.
 {% endhint %}
 
 To generate these colors you can use any website which offers an **RGB color picker**.\
-For example [this one](https://www.rapidtables.com/web/color/RGB\_Color.html).
+For example [this one](https://www.rapidtables.com/web/color/RGB_Color.html).
 
 These properties are used to set colors of the slots in the wardrobe GUI.
 
 ![](<../.gitbook/assets/image (18) (1).png>)
 
-* **Not owned**: color of the cosmetics not owned (no permission)
 * **Owned**: color of the cosmetics owned (with permission)
+* **Not owned**: color of the cosmetics not owned (no permission)
 * **Wearing**: color of the cosmetics currently equipped
-* **Wearing** preview: color of the cosmetics currently equipped but not owned (no permission), equipped only as preview&#x20;
-* **Max amount reached**: color of all the other cosmetics which cannot be equipped because the player is already wearing the max amount for that category&#x20;
+* **Wearing** preview: color of the cosmetics currently equipped but not owned (no permission), equipped only as preview
+* **Max amount reached**: color of all the other cosmetics which cannot be equipped because the player is already wearing the max amount for that category

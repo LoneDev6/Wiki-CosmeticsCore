@@ -10,6 +10,6 @@
 [advanced-body-item.md](../../adding-content/body-cosmetic/advanced-body-item.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../adding-content/balloon/itemsadder.md" %}
-[itemsadder.md](../../adding-content/balloon/itemsadder.md)
+{% content-ref url="../../adding-content/balloon-advanced/itemsadder-entity.md" %}
+[itemsadder-entity.md](../../adding-content/balloon-advanced/itemsadder-entity.md)
 {% endcontent-ref %}

@@ -11,7 +11,7 @@ Feel free to ping **LoneDev** on the Discord or to open a support ticket in the 
 
 Then, after the branch creation, open the [**Github** repository](https://github.com/LoneDev6/Wiki-ItemsAdder) of this wiki, press on **`Fork`**.
 
-![](<../.gitbook/assets/image (4) (1).png>)
+![](<../.gitbook/assets/image (4) (1) (1).png>)
 
 Untick this option!
 
@@ -31,7 +31,7 @@ Select a file you want to edit and press the **pen** button
 
 Edit the file and then press <mark style="color:green;">**Commit changes**</mark>
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 ## Important notes

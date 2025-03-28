@@ -80,15 +80,15 @@ Do not set the `self` attribute at all if you don't want to use a different item
 
 {% tabs %}
 {% tab title="Without the self model" %}
-![](../../.gitbook/assets/2022-08-17\_17.47.53.png)
+![](../../.gitbook/assets/2022-08-17_17.47.53.png)
 
-![](../../.gitbook/assets/2022-08-17\_17.48.40.png)
+![](../../.gitbook/assets/2022-08-17_17.48.40.png)
 {% endtab %}
 
 {% tab title="With the self model" %}
-![](../../.gitbook/assets/2022-08-17\_17.48.16.png)
+![](../../.gitbook/assets/2022-08-17_17.48.16.png)
 
-![](../../.gitbook/assets/2022-08-17\_17.48.40.png)
+![](../../.gitbook/assets/2022-08-17_17.48.40.png)
 {% endtab %}
 {% endtabs %}
 
@@ -149,29 +149,21 @@ This is a very important important step. \
 You have to create the 2 **self** models and edit them until you are satisfied.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 \
 You can use the preview to check exactly how the model will be shown ingame.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Issues with big models
 
 If your model is too big and you cannot move it down you have to use "**Auto fix self model**".
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://youtu.be/uWobYhX691c" %}
 
 ### Result
 
-<div>
-
-<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure></div>

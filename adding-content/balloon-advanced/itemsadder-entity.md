@@ -1,7 +1,7 @@
-# ItemsAdder
+# ItemsAdder Entity
 
 {% hint style="warning" %}
-### This balloons type require ItemsAdder to work.
+### This requires ItemsAdder to work!
 {% endhint %}
 
 ## Creating a balloon
@@ -19,8 +19,8 @@ Create the cosmetic configuration
 ```yaml
   # Example custom kite created with ItemsAdder entities 
   # (supports also animated ItemsAdder entities models)
-  star_kite:
-    display_name: "Star Kite"
+  amogus_balloon:
+    display_name: "Amogus Balloon"
     type: BALLOON_ENTITY
     balloon:
       leash: true
@@ -28,7 +28,7 @@ Create the cosmetic configuration
     # (in this case it's a must because ItemsAdder entities can't be put in GUIs)
     model:
       gui: minecraft:egg
-      normal: cosmetics:star_kite
+      normal: cosmetics:amogus
     dye:
       enabled: true # To allow this item from being colored.
 ```
@@ -39,7 +39,7 @@ As you can see I set the `normal` model to the name of the **custom entity** cre
 
 You're done
 
-![](<../../.gitbook/assets/image (8) (1).png>)
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Final notes
 

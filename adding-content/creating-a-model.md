@@ -1,3 +1,7 @@
+---
+icon: cube
+---
+
 # Creating a model
 
 To create a model you can use BlockBench.
@@ -8,15 +12,15 @@ This requires knowledge on how to create resourcepacks and how to manage CustomM
 
 ### Step 1
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2
 
 Save the model file into your resourcepack
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 3
 
@@ -44,7 +48,7 @@ Create the entry inside the `potion.json` file and decide a CustomModelData to b
     ......
 ```
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
