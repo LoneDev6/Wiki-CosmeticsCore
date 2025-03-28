@@ -1,10 +1,16 @@
-# 🖥 Commands
+# 🖥️ Commands
 
 ### Open the wardrobe
 
 `/wardrobe`
 
 Permission: `cosmeticscore.user.command.wardrobe`
+
+### Open the cosmetics menu anywhere
+
+`/cosmetics`
+
+Permission: `cosmeticscore.user.command.cosmetics`
 
 ### Reload config.yml
 

@@ -35,6 +35,7 @@
   * [Compatible](compatibility-with-other-plugins/compatible/README.md)
     * [ItemsAdder](compatibility-with-other-plugins/compatible/itemsadder.md)
     * [Vulcan](compatibility-with-other-plugins/compatible/vulcan.md)
+    * [PlaceholderAPI](compatibility-with-other-plugins/compatible/placeholderapi.md)
 
 ## 💻 Developers
 
