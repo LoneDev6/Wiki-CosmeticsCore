@@ -12,17 +12,15 @@ CosmeticsCore has a beta extension for Blockbench.
 
 ### How to install
 
-Download the latest `cceditor.js` from the **Github** repository:
+Get the latest `cceditor.js`  **URL** from the **Github** repository:
 
 {% embed url="https://github.com/LoneDev6/cosmeticscore-editor/releases" %}
 
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
-
-Open the plugins menu
+Open the plugins menu and paste the URL.
 
 <figure><img src=".gitbook/assets/image (1) (5).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (1) (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 ### How to open a cosmetic
 
