@@ -38,6 +38,6 @@ Permission: `cosmeticscore.admin.command.cosmetics`
 
 ### Force un-wear all cosmetics
 
-`/cosmetics <player> remove-all [silent|not-silent]`
+`/cosmetics <player> remove-all [category] [silent|not-silent]`
 
 Permission: `cosmeticscore.admin.command.cosmetics`
