@@ -29,7 +29,7 @@ Command: `/cosmeticsconfig config set door-area-locations`
 
 #### For better precision
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Exit location
 

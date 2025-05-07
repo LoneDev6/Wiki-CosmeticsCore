@@ -160,7 +160,7 @@ You can use the preview to check exactly how the model will be shown ingame.
 
 If your model is too big and you cannot move it down you have to use "**Auto fix self model**".
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://youtu.be/uWobYhX691c" %}
 
